@@ -14,9 +14,9 @@ timezone: Africa/Cairo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Data Engineer # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: I am an Electrical Engineer by education, an Energy Manager by working experience, and a Data Engineer by training  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -29,13 +29,13 @@ github:
   username: mlotfic # change to your GitHub username
 
 twitter:
-  username: mlotfic # change to your Twitter username
+  username: mlotfic.2 # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Mahmoud Lotfi
-  email: mlotfic@gmail.com # change to your email address
+  email: mlotfic2025@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/mlotfic # change to your Twitter homepage
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/59091299?s=400&u=8a961bdcee6617a5cdec834bc096e234a4590cc9&v=4
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
