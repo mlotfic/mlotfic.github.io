@@ -16,8 +16,6 @@ mermaid: true
 comments: true
 toc: true
 
-media_subpath: '/posts/demo'
-
 image:
   path: /assets/img/posts/chirpy-frontmatter-demo.png
   alt: Chirpy Jekyll theme front matter configuration guide with all YAML fields
@@ -52,6 +50,8 @@ math: true
 mermaid: true
 comments: true
 toc: true
+
+media_subpath: '/posts/demo'
 
 image:
   path: /assets/img/posts/chirpy-frontmatter-demo.png
@@ -506,19 +506,19 @@ bundle exec jekyll serve
 
 This post demonstrates how all Chirpy front matter fields affect your blog:
 
-| Field | Effect Shown | Status |
-|-------|-------------|--------|
-| `title` | Main heading, browser tab | ✅ Active |
-| `author` | Attribution | ✅ Active |
-| `date` | Publication date | ✅ Active |
-| `categories` | Breadcrumb navigation | ✅ Active |
-| `tags` | Tag cloud, related posts | ✅ Active |
-| `description` | Social previews, SEO | ✅ Active |
-| `pin` | Featured on homepage | ✅ Pinned |
-| `math` | Equation rendering | ✅ Equations visible |
-| `mermaid` | Diagram rendering | ✅ Diagrams visible |
-| `image` | Featured image | ✅ Displayed |
-| `comments` | Discussion section | ✅ Enabled |
-| `toc` | Navigation sidebar | ✅ Sidebar visible |
+| Field         | Effect Shown              | Status              |
+| ------------- | ------------------------- | ------------------- |
+| `title`       | Main heading, browser tab | ✅ Active            |
+| `author`      | Attribution               | ✅ Active            |
+| `date`        | Publication date          | ✅ Active            |
+| `categories`  | Breadcrumb navigation     | ✅ Active            |
+| `tags`        | Tag cloud, related posts  | ✅ Active            |
+| `description` | Social previews, SEO      | ✅ Active            |
+| `pin`         | Featured on homepage      | ✅ Pinned            |
+| `math`        | Equation rendering        | ✅ Equations visible |
+| `mermaid`     | Diagram rendering         | ✅ Diagrams visible  |
+| `image`       | Featured image            | ✅ Displayed         |
+| `comments`    | Discussion section        | ✅ Enabled           |
+| `toc`         | Navigation sidebar        | ✅ Sidebar visible   |
 
 **Copy this post as a template and modify the front matter for your own posts!**
