@@ -53,8 +53,6 @@ mermaid: true
 comments: true
 toc: true
 
-media_subpath: '/posts/demo'
-
 image:
   path: /assets/img/posts/chirpy-frontmatter-demo.png
   alt: Chirpy Jekyll theme front matter configuration guide
