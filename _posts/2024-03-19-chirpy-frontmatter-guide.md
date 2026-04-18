@@ -10,7 +10,7 @@ date: 2024-03-19 10:00:00 +0800
 categories: [Github, Pages, jekyll, Front Matter]
 tags: [jekyll, github, pages]
 
-pin: true
+pin: false
 math: true
 mermaid: true
 comments: true

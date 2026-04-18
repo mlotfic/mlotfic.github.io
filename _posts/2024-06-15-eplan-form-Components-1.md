@@ -1,3 +1,25 @@
+---
+title: EPLAN Form Components Reference
+description: >-
+  A beginner-friendly overview of the structure and components of EPLAN form files (`.f??`), including the anatomy of a form page and the meaning of common property placeholders.
+author: Mahmoud Lotfi
+file_name: 2024-06-15-eplan-form-Components-1.md
+date: 2024-06-01 10:00:00 +0800
+categories: [EPLAN, Forms, Report Pages, Placeholders]
+tags: [Eplan, forms, placeholders]
+pin: False
+math: false
+mermaid: false
+comments: true
+toc: true
+render_with_liquid: false
+image:
+  path: /assets/img/posts/eplan.jpg
+  alt: EPLAN Form Components
+  lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+
+---
+
 # EPLAN Electric P8 — Form Components Reference
 
 > **Software:** EPLAN Electric P8

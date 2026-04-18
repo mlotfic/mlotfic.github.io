@@ -1,3 +1,25 @@
+---
+title: EPLAN Electric P8 2026 — Complete Property Categories & Most-Used Properties Reference
+description: >-
+  A comprehensive reference of all placeholder property categories in EPLAN Platform 2026, with the most commonly used properties listed per category and their applications in different form types.
+author: Mahmoud Lotfi
+date: 2024-06-15 10:00:00 +0800
+file_name: 2024-06-15-eplan-categories-1.md
+categories: [EPLAN, Properties, Forms, Reference]
+tags: [Eplan, properties, forms]
+pin: False
+math: true
+mermaid: true
+comments: true
+toc: true
+render_with_liquid: false
+image:
+  path: /assets/img/posts/eplan.jpg
+  alt: EPLAN Properties Reference
+  lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+---
+
+
 # EPLAN Electric P8 2026 — Complete Property Categories & Most-Used Properties Reference
 
 > **Software:** EPLAN Electric P8 / Eplan Platform 2026

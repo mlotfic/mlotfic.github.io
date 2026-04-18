@@ -1,3 +1,25 @@
+---
+title: EPLAN Device Designation Reference Guide — Comprehensive `-` Tag System for All Disciplines
+description: >-
+  A complete reference for EPLAN device designations based on IEC 81346, covering every device type across electrical, automation, instrumentation, IT, and mechanical disciplines, with examples and best practices.
+author: Mahmoud Lotfi
+date: 2024-06-01 10:00:00 +0800
+file_name: 2024-06-01-eplan-device-designation-reference-1.md
+categories: [EPLAN, Device Designation, IEC 81346, Reference Guide]
+tags: [Eplan, device designation, IEC 81346]
+pin: False
+math: true
+mermaid: true
+comments: true
+toc: true
+render_with_liquid: false
+image:
+  path: /assets/img/posts/eplan.jpg
+  alt: EPLAN Device Designation Reference
+  lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+
+---
+
 # EPLAN P8 — Device Designation (`-`) Reference Guide
 > Based on IEC 81346 | IEC 61346 | ISO 10628 | ISA-5.1 | Expert conventions across electrical, automation, instrumentation, IT, and mechanical disciplines
 

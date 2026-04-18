@@ -1,3 +1,27 @@
+---
+
+title: "EPLAN Forms Reference Guide — Part 1: Report Structure"
+
+description: >-
+  A comprehensive reference guide to the standard report and form structure of an EPLAN Electric P8 project, including form types, purposes, examples, and applicable standards.
+
+date: 2024-03-10 10:00:00 +0800
+author: Mahmoud Lotfi
+categories: [EPLAN, Forms, Reports, Documentation]
+tags: [Eplan, forms, reports]
+pin: False
+math: true
+mermaid: true
+comments: true
+toc: true
+render_with_liquid: false
+
+image:
+  path: /assets/img/posts/eplan.jpg
+  alt: EPLAN Forms Explained
+  lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+---
+
 # EPLAN Electric P8 — Project Structure Reference
 
 > **Software:** EPLAN Electric P8  
