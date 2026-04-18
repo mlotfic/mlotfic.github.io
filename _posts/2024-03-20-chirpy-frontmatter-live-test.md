@@ -4,11 +4,11 @@ description: >-
   Complete working example of all Chirpy front matter YAML fields with live demonstrations.
   Learn how to use title, categories, tags, date, math, mermaid, images, and more with practical examples.
 
-author: demo_user
+author: Mahmoud Lotfi
 date: 2024-03-20 10:00:00 +0800
 
-categories: [Blogging, Tutorial]
-tags: [chirpy, jekyll, front-matter, guide, blogging]
+categories: [Github, Pages, jekyll, Front Matter]
+tags: [jekyll, github, pages]
 
 pin: true
 math: true
@@ -17,7 +17,7 @@ comments: true
 toc: true
 
 image:
-  path: /assets/img/posts/chirpy-frontmatter-demo.png
+  path: /assets/img/posts/githubPages.jpg
   alt: Chirpy Jekyll theme front matter configuration guide with all YAML fields
   lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
 ---
@@ -25,6 +25,50 @@ image:
 # Chirpy Front Matter Configuration - Live Test
 
 This post demonstrates **all Chirpy front matter fields** in action. You're seeing the live results of the YAML configuration shown below.
+
+---
+
+## In This File
+
+I'll create a test post for your Chirpy blog that demonstrates the front matter guide with practical examples you can immediately use and see rendered.Now I'll create a comprehensive test post demonstrating all the Chirpy front matter features:Perfect! I've created a complete **test/demo post** for your Chirpy blog that shows all front matter features in action.
+
+## What You're Getting:
+
+### 📄 **Filename:** `2024-03-20-chirpy-frontmatter-demo.md`
+
+### ✨ **Features Demonstrated:**
+
+This post uses and shows the live results of:
+
+- ✅ **`pin: true`** - Post pinned to homepage  
+- ✅ **`math: true`** - Equations rendering ($E = mc^2$, impedance calculations)
+- ✅ **`mermaid: true`** - Multiple diagrams (workflow, system architecture, timeline)
+- ✅ **`toc: true`** - Table of Contents sidebar
+- ✅ **`comments: true`** - Comment section enabled
+- ✅ **`image`** - Featured image with LQIP
+- ✅ **`media_subpath`** - Organized media path
+- ✅ **Categories & Tags** - Full navigation demo
+- ✅ **Author & Date** - Metadata display
+
+### 📚 **Content Includes:**
+
+1. **Each field explained** - What you see and why
+2. **3 practical examples** - Tutorial, Equipment Review, Announcement
+3. **Live demonstrations** - Math equations, Mermaid diagrams
+4. **Checklist template** - Copy-paste for your posts
+5. **Troubleshooting guide** - Common issues & fixes
+6. **Quick reference table** - All fields summarized
+
+### 🚀 **How to Use:**
+
+1. Copy this file to your `_posts/` directory
+2. Run `bundle exec jekyll serve`
+3. Visit `http://localhost:4000` to see it rendered
+4. Check each section to see how front matter affects display
+5. Use as a template for your own posts
+
+You'll see exactly how each YAML field translates to visual elements on your blog!
+
 
 ---
 
@@ -54,7 +98,7 @@ toc: true
 media_subpath: '/posts/demo'
 
 image:
-  path: /assets/img/posts/chirpy-frontmatter-demo.png
+  path: /assets/img/posts/githubPages.png
   alt: Chirpy Jekyll theme front matter configuration guide
   lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4...
 ---
@@ -151,7 +195,7 @@ This text appears in:
 **Front matter:**
 ```yaml
 image:
-  path: /assets/img/posts/chirpy-frontmatter-demo.png
+  path: /assets/img/posts/githubPages.png
   alt: Chirpy Jekyll theme front matter configuration guide
   lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4...
 ```
@@ -433,7 +477,7 @@ When creating a new post, use this checklist:
 
 ### 1. **Check File Naming**
 ```
-_posts/2024-03-20-chirpy-frontmatter-demo.md
+_posts/2024-03-20-chirpy-frontmatter.md
          ↑
     Must match date in front matter!
 ```

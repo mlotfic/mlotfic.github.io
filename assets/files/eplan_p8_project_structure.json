@@ -1,0 +1,240 @@
+{
+  "project": "EPLAN_Sample_Project_Education",
+  "software": "EPLAN Electric P8",
+  "description": "EPLAN Electric P8 is a professional electrical CAD/CAE software used for planning, documenting, and managing electrical engineering projects. This project tree represents the standard report/document structure generated within an EPLAN P8 project.",
+  "forms": [
+    {
+      "id": 1,
+      "folder": "Cable diagram",
+      "subforms": ["Individual", "Total"],
+      "file_extension": ".f04 / Form type: CABLES",
+      "description": "Graphical representation of cables used in the project, showing routing, assignment, and connection details.",
+      "used_for": "Documenting cable runs between devices, showing cable type, cross-section, length, and shield information.",
+      "when_to_use": "Use when your project involves routed cables between control panels, machines, or field devices.",
+      "example": "A cable from a main distribution panel to a motor starter cabinet — shows cable ID (W1), type (NYCWY 3x1.5mm²), from/to terminals, and length (15m).",
+      "individual_vs_total": {
+        "Individual": "One page per cable — detailed view of each cable with its conductors.",
+        "Total": "All cables listed in a summary table across the entire project."
+      }
+    },
+    {
+      "id": 2,
+      "folder": "Cable overview",
+      "subforms": ["Individual", "Total"],
+      "file_extension": ".f04 / Form type: CABLE_OVERVIEW",
+      "description": "A tabular overview listing all cables in the project with key attributes such as cable designation, type, length, and connected devices.",
+      "used_for": "Procurement planning, cable scheduling, and quick reference for installation teams.",
+      "when_to_use": "Use during the procurement or installation phase to get a consolidated list of all cables.",
+      "example": "A table listing W1 (15m, NYCWY 3x1.5), W2 (8m, H05VV-F 2x1.0), W3 (22m, ÖLFLEX 5G2.5) with source and destination terminals.",
+      "individual_vs_total": {
+        "Individual": "Overview per cable including conductor details.",
+        "Total": "Summary across all cables in the project."
+      }
+    },
+    {
+      "id": 3,
+      "folder": "Connection list",
+      "subforms": ["Electrical"],
+      "file_extension": ".f17 / Form type: CONNECTION_LIST",
+      "description": "A tabular list of all electrical connections (wires/conductors) in the project, including source terminal, target terminal, wire color, cross-section, and potential.",
+      "used_for": "Used by wiring technicians during panel assembly; serves as the definitive wiring reference.",
+      "when_to_use": "Use during cabinet wiring and commissioning. Essential for point-to-point wiring without needing to read schematics.",
+      "example": "Row: From=X1:1, To=K1:A1, Wire=BK, 1.5mm², Potential=L1 — means terminal X1 pin 1 connects to contactor K1 coil terminal A1 using a 1.5mm² black wire at potential L1.",
+      "subform_notes": {
+        "Electrical": "Lists all signal and power connections defined in the electrical schematics."
+      }
+    },
+    {
+      "id": 4,
+      "folder": "Device tag list",
+      "subforms": ["Fluid Individual", "Fluid Total", "Individual", "Total"],
+      "file_extension": ".f06 / Form type: PARTS_LIST / DEVICE_LIST",
+      "description": "A structured list of all device tags (DT) used in the project, showing technical data, article numbers, descriptions, and assigned functions.",
+      "used_for": "Device management, BOM (Bill of Materials) generation, and cross-referencing components to their datasheet/part numbers.",
+      "when_to_use": "Use during engineering design review, procurement, and asset management phases.",
+      "example": "Tag: =GB1+ET1-K1, Description: Main contactor, Article: 3RT2026-1AP00 (Siemens), Qty: 1, Function: Motor starter.",
+      "individual_vs_total": {
+        "Individual": "One report per location or functional group.",
+        "Total": "Complete device list across the entire project."
+      },
+      "fluid_note": "Fluid variants cover pneumatic/hydraulic components tagged in P&ID or fluid power diagrams."
+    },
+    {
+      "id": 5,
+      "folder": "P&I diagram: Piping overview",
+      "subforms": ["1"],
+      "file_extension": ".f30 / Form type: PID_OVERVIEW",
+      "description": "Piping and Instrumentation Diagram (P&ID) overview page showing process flow, instrumentation, and control elements according to ISA/IEC standards.",
+      "used_for": "Process engineering documentation showing relationship between process equipment, piping, and instrumentation.",
+      "when_to_use": "Use in projects involving process plants, HVAC systems, water treatment, or any process with fluid flow and instrumentation.",
+      "example": "A P&ID sheet showing a pump (P-101), flow transmitter (FT-101), control valve (FCV-101) with associated piping lines and signal connections to a DCS.",
+      "standard": "IEC 10628 / ISA 5.1"
+    },
+    {
+      "id": 6,
+      "folder": "PLC diagram",
+      "subforms": ["SPS Connection"],
+      "file_extension": ".f22 / Form type: PLC",
+      "description": "Automatically generated PLC connection diagrams showing I/O card assignments, terminal connections, and signal names linked to PLC addresses.",
+      "used_for": "Documenting PLC hardware configuration and wiring. Links field instruments/actuators to specific PLC I/O channels.",
+      "when_to_use": "Use in any automation project where a PLC is present. Generates wiring diagrams from PLC I/O planning data.",
+      "example": "CPU: Siemens S7-1500, Card: DI 32x24VDC, Channel I0.0 = 'Emergency Stop S1', Terminal X10:1 → PLC card slot 2, pin 1.",
+      "subform_notes": {
+        "SPS Connection": "SPS is the German abbreviation for PLC (Speicherprogrammierbare Steuerung). Shows terminal-to-PLC-pin wiring."
+      }
+    },
+    {
+      "id": 7,
+      "folder": "Pre-planning: Pipe class overview",
+      "subforms": ["Diagram", "Overview"],
+      "file_extension": ".f31 / Form type: PREPLANNING_PIPE",
+      "description": "Early-stage pipe class planning sheets showing pipe specifications, pressure ratings, material classes, and applicable standards before detailed design.",
+      "used_for": "Pre-engineering and FEED (Front End Engineering Design) phases for process projects.",
+      "when_to_use": "Use at project kickoff to define piping specifications before detailed P&ID or isometric work begins.",
+      "example": "Pipe class A1B: Carbon steel, PN40, temp range -20°C to +300°C, applicable to steam lines in utility system.",
+      "individual_vs_total": {
+        "Diagram": "Schematic representation of pipe class attributes.",
+        "Overview": "Tabular summary of all defined pipe classes."
+      }
+    },
+    {
+      "id": 8,
+      "folder": "Pre-planning: Planning object overview",
+      "subforms": ["Cable planning objects", "PCT loop overview", "Planning object -Device list"],
+      "file_extension": ".f32 / Form type: PREPLANNING_OBJECTS",
+      "description": "High-level planning objects representing functional units, control loops, and device groups before detailed engineering diagrams are created.",
+      "used_for": "Top-down project planning, scope definition, and handover between process and electrical/instrumentation engineering.",
+      "when_to_use": "Use in early project phases to plan PCT (process control technology) loops and define functional requirements.",
+      "example": "PCT Loop: TIC-101 (Temperature Indication & Control) — includes TT-101 (temperature transmitter), TCV-101 (control valve), linked to DCS controller.",
+      "subform_notes": {
+        "Cable planning objects": "Planned cables not yet fully engineered — placeholder for cable scheduling.",
+        "PCT loop overview": "Summary of all instrumentation and control loops defined in pre-planning.",
+        "Planning object -Device list": "List of all devices assigned to planning objects/functional units."
+      }
+    },
+    {
+      "id": 9,
+      "folder": "Pre-planning: Planning object plan",
+      "subforms": ["Loops"],
+      "file_extension": ".f33 / Form type: LOOP_DIAGRAM",
+      "description": "Loop diagrams for instrumentation and control circuits showing signal flow from field device through junction box, marshalling, and into the control system.",
+      "used_for": "Instrumentation engineering, loop checking during commissioning, and as-built documentation.",
+      "when_to_use": "Use for all PCT loops in process automation projects. Mandatory for instrumentation FAT/SAT testing.",
+      "example": "Loop TIC-101: Field device TT-101 (4-20mA, HART) → JB-05 terminal 3/4 → Marshalling cabinet MC-01 → AI card slot 3 ch.7 → DCS tag TIC101_PV.",
+      "standard": "ISA 5.4 Loop Diagram standard"
+    },
+    {
+      "id": 10,
+      "folder": "Pre-planning: Substance overview",
+      "subforms": ["Diagram", "Overview"],
+      "file_extension": ".f34 / Form type: SUBSTANCE_OVERVIEW",
+      "description": "Documentation of process substances/fluids (media) used in the plant, including properties like temperature, pressure, phase, and hazard classification.",
+      "used_for": "Process safety documentation, material selection, and compliance with ATEX/SIL requirements.",
+      "when_to_use": "Use in chemical, oil & gas, or any process project where fluid properties influence engineering decisions.",
+      "example": "Substance: Natural Gas, Phase: Gas, Temp: -10 to +50°C, Pressure: 10 bar, ATEX Zone: 1, Hazard class: II B T3.",
+      "individual_vs_total": {
+        "Diagram": "Process diagram annotated with substance information.",
+        "Overview": "Table of all substances with their properties."
+      }
+    },
+    {
+      "id": 11,
+      "folder": "Structure identifier overview",
+      "subforms": ["Structur identifier overview"],
+      "file_extension": ".f08 / Form type: STRUCTURE_OVERVIEW",
+      "description": "Overview of all structure identifiers used in the project — including higher-level assignment (=), installation location (+), and function definition (-) according to IEC 81346.",
+      "used_for": "Project structure verification, tag naming convention review, and navigation reference.",
+      "when_to_use": "Use during project setup review and for clients/auditors who need to understand the tag naming logic.",
+      "example": "=GB1 (Functional assignment: Drive system), +ET1 (Installation location: Control cabinet 1), -K1 (Device: Contactor 1) → Full tag: =GB1+ET1-K1.",
+      "standard": "IEC 81346 (Reference Designation System)"
+    },
+    {
+      "id": 12,
+      "folder": "Summarized parts list",
+      "subforms": ["Individual", "Total"],
+      "file_extension": ".f05 / Form type: PARTS_LIST_SUMMARIZED",
+      "description": "Consolidated Bill of Materials (BOM) summing identical parts across the entire project or per functional group, with quantities and article numbers.",
+      "used_for": "Procurement, warehouse management, and cost estimation.",
+      "when_to_use": "Use at the end of engineering to generate the final parts list for purchasing department.",
+      "example": "Article: 3RT2026-1AP00, Description: Siemens Contactor 11kW, Qty: 5, Unit price: €45.00, Total: €225.00.",
+      "individual_vs_total": {
+        "Individual": "BOM grouped by location or page set.",
+        "Total": "Complete project-wide BOM with summarized quantities."
+      }
+    },
+    {
+      "id": 13,
+      "folder": "Table of contents",
+      "subforms": ["Total"],
+      "file_extension": ".f01 / Form type: TABLE_OF_CONTENTS",
+      "description": "Automatically generated document index listing all schematic pages with page numbers, descriptions, and page types.",
+      "used_for": "Document navigation and formal document control submission.",
+      "when_to_use": "Always include in final documentation packages delivered to clients or stored in document management systems.",
+      "example": "Page 1: Cover sheet | Page 2–15: Circuit diagrams =GB1 | Page 16–18: Terminal diagrams | Page 19: Parts list.",
+      "subform_notes": {
+        "Total": "Single comprehensive TOC for the entire project."
+      }
+    },
+    {
+      "id": 14,
+      "folder": "Terminal-strip overview",
+      "subforms": ["Individual", "Total"],
+      "file_extension": ".f10 / Form type: TERMINAL_STRIP_OVERVIEW",
+      "description": "Graphical or tabular overview of terminal strips showing terminal arrangement, designations, cross-connections, bridge groups, and connected conductors.",
+      "used_for": "Cabinet assembly, wiring inspection, and terminal labeling.",
+      "when_to_use": "Mandatory for all projects with terminal blocks. Used by panel builders for physical terminal arrangement.",
+      "example": "Strip X1: Terminal 1 (PE, green-yellow), Terminal 2 (L1, brown, 2.5mm²) → Motor M1 U1, Terminal 3 (L2, black) → Motor M1 V1.",
+      "individual_vs_total": {
+        "Individual": "One page per terminal strip with full graphical layout.",
+        "Total": "Summary table of all terminal strips and their properties."
+      }
+    },
+    {
+      "id": 15,
+      "folder": "Terminal diagram",
+      "subforms": ["Individual", "Total"],
+      "file_extension": ".f11 / Form type: TERMINAL_DIAGRAM",
+      "description": "Detailed wiring diagram of individual terminals showing internal/external connections, cable references, and signal flow direction (incoming/outgoing).",
+      "used_for": "Precise wiring instructions for technicians; shows exactly what connects to each terminal pin.",
+      "when_to_use": "Use for complex terminal strips with many external cable connections, especially in marshalling or junction boxes.",
+      "example": "Terminal X1:5: Internal wire from -K3:14 (NC contact), External cable W5 conductor 3 (BU, 0.75mm²) to field solenoid -Y1.",
+      "individual_vs_total": {
+        "Individual": "Detailed diagram per terminal strip.",
+        "Total": "All terminal diagrams in one report."
+      }
+    },
+    {
+      "id": 16,
+      "folder": "Title page / cover sheet",
+      "subforms": ["Cover sheet", "Material regulations", "Safety instructions"],
+      "file_extension": ".f00 / Form type: TITLE_PAGE",
+      "description": "The front matter of the documentation package including project title block, material compliance declarations, and safety/handling instructions.",
+      "used_for": "Formal document identification, regulatory compliance, and safety communication.",
+      "when_to_use": "Always required for any documentation deliverable, especially for customer handover or regulatory submission.",
+      "example": "Cover sheet: Project Name, Customer, Revision history, Drawn by, Approved by, Date. Material regulations: RoHS/REACH compliance. Safety instructions: Lockout-Tagout procedures.",
+      "subform_notes": {
+        "Cover sheet": "Standard title block with project metadata and revision history.",
+        "Material regulations": "Declaration of compliance with RoHS, REACH, or customer-specific material restrictions.",
+        "Safety instructions": "General electrical safety notes, lockout/tagout requirements, and applicable standards (IEC 60364, VDE)."
+      }
+    }
+  ],
+  "eplan_p8_general_notes": {
+    "form_file_location": "Forms are stored as *.f?? files in the EPLAN master data directory: %APPDATA%\\EPLAN\\Electric P8\\{version}\\Forms\\",
+    "report_generation": "Reports are generated via: Utilities > Reports > Generate (or Edit Reports dialog)",
+    "form_customization": "Each form can be customized in the Form Editor (graphical layout tool built into EPLAN P8)",
+    "page_types": {
+      "=": "Higher-level function / Functional assignment",
+      "+": "Installation location",
+      "-": "Device / component tag",
+      "&&": "Document type designation"
+    },
+    "key_standards": [
+      "IEC 81346 — Reference Designation System",
+      "IEC 60617 — Graphical symbols for diagrams",
+      "IEC 61082 — Preparation of documents used in electrotechnology",
+      "ISA 5.1 — Instrumentation symbols and identification",
+      "ISA 5.4 — Instrument loop diagrams"
+    ]
+  }
+}

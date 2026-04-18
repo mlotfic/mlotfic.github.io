@@ -1,6 +1,58 @@
+---
+title: Chirpy Jekyll Theme - Front Matter YAML Header Guide
+description: >-
+  Complete working example of all Chirpy front matter YAML fields with live demonstrations.
+  Learn how to use title, categories, tags, date, math, mermaid, images, and more with practical examples.
+
+author: Mahmoud Lotfi
+date: 2024-03-19 10:00:00 +0800
+
+categories: [Github, Pages, jekyll, Front Matter]
+tags: [jekyll, github, pages]
+
+pin: true
+math: true
+mermaid: true
+comments: true
+toc: true
+render_with_liquid: false
+
+image:
+  path: /assets/img/posts/githubPages.jpg
+  alt: Chirpy Jekyll theme front matter configuration guide with all YAML fields
+  lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+---
+
 # Chirpy Jekyll Theme: Front Matter YAML Header Guide
 
 A complete reference for all front matter fields in Chirpy posts with descriptions, use cases, and practical examples.
+
+---
+
+## In this file
+
+I'll create a comprehensive guide for Chirpy Jekyll theme's front matter YAML headers with descriptions, use cases, and examples.Now I'll create a comprehensive markdown guide for Chirpy Jekyll front matter with detailed explanations and examples:Now I'll copy it to the outputs directory and present it:Perfect! I've created a comprehensive guide for Chirpy Jekyll theme front matter headers. The guide includes:
+
+**Coverage:**
+- **Core fields** (required/recommended): `title`, `author`, `date`, `categories`, `tags`
+- **Enhanced fields**: `description`, `pin`, `math`, `mermaid`
+- **Media fields**: `image` (with path, alt, LQIP), `media_subpath`
+- **Advanced fields**: `render_with_liquid`, `comments`, `toc`
+
+**For each field:**
+- ✅ Type and default value
+- ✅ Clear description of purpose
+- ✅ When to use it
+- ✅ Multiple practical examples (including electrical/data-focused examples)
+- ✅ Best practices and tips
+
+**Bonus sections:**
+- Complete real-world examples (technical tutorial, announcement, equipment review)
+- Quick reference table
+- Troubleshooting guide
+- Best practices summary
+
+The guide is especially tailored to your interests in data, electrical systems, and analysis with examples around load forecasting, signal processing, circuit analysis, and equipment testing.
 
 ---
 

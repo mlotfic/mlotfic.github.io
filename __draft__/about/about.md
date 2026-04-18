@@ -1,29 +1,23 @@
----
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
----
-
 # About Me
 
-Hi, I’m mahound lotfi.
-I’m an electrical engineer by education, a data engineer by training, and I work in energy management and industrial systems.
 
-I’m a native Arabic speaker, and I use Egyptian Arabic in daily life—at home, in the community, and in most local work environments.
-My dialect is Alexandrian-influenced, clear and widely understood, with minor coastal variations in pronunciation.
-I also work extensively with Modern Standard Arabic when dealing with formal texts, technical documentation, and classical literature.
 
-I use English as my primary working language in technical and engineering contexts.
-I use it for reading documentation, writing code, designing data systems, and collaborating in professional environments.
 
-I have hands-on experience in electrical design and installation, energy efficiency and management, and data pipelines.
 
-I build practical systems that connect data, engineering, and operations that help businesses make data-driven decisions and optimize their processes.
 
-I work with Python, SQL, R, ETL pipelines, databases, and automation.
-I also work with applied AI systems, including OCR, NLP, and LLM integration.
 
-I focus on turning unstructured Arabic text into structured, usable data for analysis and verification.
+
+I'm **Mahmoud Lotfi**, a Data Engineer and Electrical Engineer based in Alexandria, Egypt. I bridge the gap between industrial systems, electrical infrastructure, and data-driven analytics.
+
+I have strong proficiency in both Arabic and English, using each language in distinct but overlapping environments. 
+
+Arabic is my native language, which I use daily at home, in the community, and in most informal and professional interactions. My dialect is Egyptian Arabic "Alexandrian-influenced", which is clear and widely understood across the Arab world. I also work extensively with Modern Standard Arabic (MSA), when dealing with formal texts, technical documentation, and classical Islamic literature.
+
+English is my primary language for technical, academic, and engineering-related work. I use it when reading documentation, writing code, designing data systems, and communicating in professional or international contexts. My educational and professional background related to electrical engineering, data engineering, and energy management, where English is the dominant language for tools and communication.
+
+I have hands-on experience working in industrial and technical environments, including electrical design, site engineer, scada systems, water treatment plant, energy, data analysis and data engineering. I am comfortable switching between Arabic and English depending on context—Arabic for cultural, linguistic, and domain-specific text work, and English for technical implementation and engineering workflows.
+
+In addition to language skills, I have strong practical abilities in programming (Python), data engineering (ETL pipelines, databases, automation), and applied AI workflows (OCR, NLP, LLM integration). I focus on building real-world systems, especially those involving unstructured Arabic text, transforming it into structured, queryable data for analysis and verification. My work often involves bridging the gap between traditional engineering and modern data science, using language skills to navigate both worlds effectively.
 
 ---
 
@@ -163,7 +157,7 @@ This blog documents my journey at the intersection of **electrical engineering**
 - **Email:** [mlotfic@gmail.com](mailto:mlotfic@gmail.com)
 - **Phone:** +20 120 038 557 (Work)
 - **LinkedIn:** [linkedin.com/in/mlotfic](https://www.linkedin.com/in/mlotfic)
-- **GitHub:** [github.com/mlotfic](https://github.com)
+- **GitHub:** [github.com/your-username](https://github.com) *(add your GitHub URL)*
 
 ---
 
@@ -227,4 +221,3 @@ Check out recent posts on:
 
 **Last updated:** March 2024  
 *This site is built with [Jekyll](https://jekyllrb.com/) and [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy)*
-
