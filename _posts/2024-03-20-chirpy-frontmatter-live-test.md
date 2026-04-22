@@ -1,4 +1,9 @@
 ---
+layout: post
+cover_color: #000000
+
+keywords: EPLAN P8, Project Structure, Forms, Reports, Document Types, Electrical Design, Project Documentation, Standard Forms, Report Generation, EPLAN P8 Reference
+
 title: Chirpy Front Matter Guide - Complete Demonstration
 description: >-
   Complete working example of all Chirpy front matter YAML fields with live demonstrations.

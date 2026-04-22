@@ -1,4 +1,8 @@
 ---
+layout: post
+cover_color: #000000
+
+keywords: EPLAN P8, Project Structure, Forms, Reports, Document Types, Electrical Design, Project Documentation, Standard Forms, Report Generation, EPLAN P8 Reference
 
 title: "EPLAN Project Structure Reference Guide"
 
@@ -21,7 +25,9 @@ image:
   path: /assets/img/posts/eplan.jpg
   alt: EPLAN Project Structure Reference Guide
   lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+
 ---
+
 # EPLAN P8 — Project Structure Reference Guide
 > How to organise the project tree | Structure identifiers | Page hierarchy | Naming conventions across machine building, process, power, panel building, and system integration industries
 

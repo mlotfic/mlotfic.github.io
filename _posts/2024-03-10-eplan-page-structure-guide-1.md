@@ -1,4 +1,8 @@
 ---
+layout: post
+cover_color: #000000
+
+keywords: EPLAN P8, Project Structure, Forms, Reports, Document Types, Electrical Design, Project Documentation, Standard Forms, Report Generation, EPLAN P8 Reference
 
 title: "EPLAN P8 Page Structure Guide"
 
@@ -25,7 +29,6 @@ image:
 # EPLAN P8 Page Structure Guide
 
 
----
 I can see this is an EPLAN P8 **Page Structure** dialog. Let me break down what you're looking at:
 
 ## What This Is

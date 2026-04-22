@@ -1,4 +1,9 @@
 ---
+layout: post
+cover_color: #000000
+
+keywords: EPLAN P8, Project Structure, Forms, Reports, Document Types, Electrical Design, Project Documentation, Standard Forms, Report Generation, EPLAN P8 Reference
+
 title: "EPLAN Forms Reference Guide — Part 1: Report Structure"
 
 description: >-

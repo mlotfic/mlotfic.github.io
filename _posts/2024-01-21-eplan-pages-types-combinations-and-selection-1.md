@@ -1,4 +1,8 @@
 ---
+layout: post
+cover_color: #000000
+
+keywords: EPLAN P8, Project Structure, Forms, Reports, Document Types, Electrical Design, Project Documentation, Standard Forms, Report Generation, EPLAN P8 Reference
 
 title: "EPLAN P8 Common Document Type Combinations and Selection Guide"
 
@@ -182,5 +186,3 @@ NOT: SCHEMATIC, WIRE_DIAGRAM, PANEL_LAYOUT, etc.
 ❌ Forgetting to update document type labels during revisions  
 ❌ Using vague or overlapping document type names  
 ❌ Not training team members on document type standards  
-
-

@@ -1,4 +1,9 @@
 ---
+layout: post
+cover_color: #000000
+
+keywords: EPLAN P8, Project Structure, Forms, Reports, Document Types, Electrical Design, Project Documentation, Standard Forms, Report Generation, EPLAN P8 Reference
+
 title: EPLAN Device Designation Reference Guide — Comprehensive `-` Tag System for All Disciplines
 description: >-
   A complete reference for EPLAN device designations based on IEC 81346, covering every device type across electrical, automation, instrumentation, IT, and mechanical disciplines, with examples and best practices.
@@ -21,6 +26,7 @@ image:
 ---
 
 # EPLAN P8 — Device Designation (`-`) Reference Guide
+
 > Based on IEC 81346 | IEC 61346 | ISO 10628 | ISA-5.1 | Expert conventions across electrical, automation, instrumentation, IT, and mechanical disciplines
 
 **34 sections** covering every device type across all disciplines:

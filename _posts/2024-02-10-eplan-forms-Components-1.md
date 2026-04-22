@@ -1,4 +1,9 @@
 ---
+layout: post
+cover_color: #000000
+
+keywords: EPLAN P8, Project Structure, Forms, Reports, Document Types, Electrical Design, Project Documentation, Standard Forms, Report Generation, EPLAN P8 Reference
+
 title: EPLAN Form Components Reference
 description: >-
   A beginner-friendly overview of the structure and components of EPLAN form files (`.f??`), including the anatomy of a form page and the meaning of common property placeholders.

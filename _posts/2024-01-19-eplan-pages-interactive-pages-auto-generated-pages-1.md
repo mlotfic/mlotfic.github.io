@@ -24,7 +24,9 @@ image:
 
 # Interactive Pages vs. Auto-Generated Report Pages in EPLAN P8
 
-### 🖊️ Interactive Pages
+---
+
+## 🖊️ Interactive Pages
 These are pages you **manually create and draw** in the schematic editor. You place symbols, draw connections, enter data yourself.
 
 | Property   | Detail                                                        |
@@ -39,7 +41,7 @@ These are your **source data**. Everything else flows from them.
 
 ---
 
-### ⚙️ Auto-Generated Pages (Form-Based Reports)
+## ⚙️ Auto-Generated Pages (Form-Based Reports)
 These are pages EPLAN **generates automatically** by reading data from interactive pages and rendering it through a `.f??` form template.
 
 | Property   | Detail                                                                   |
@@ -52,7 +54,7 @@ These are pages EPLAN **generates automatically** by reading data from interacti
 
 ---
 
-### The Relationship
+## The Relationship
 
 ```
 Interactive Pages  →  EPLAN Database    →  Form Template (.f??)  →  Auto-Generated Report Page
@@ -65,13 +67,12 @@ So for example:
 - The **Terminal Diagram form** (`.f11`) reads that data and renders the terminal wiring page automatically
 
 ---
-
-### Key Rule
+## Key Rule
 > **Never edit a generated report page directly.** If you change something there, it gets overwritten the next time reports are regenerated. Always go back to the **source interactive page** to make corrections.
 
 ---
 
-### Which folders in your project are which?
+## Which folders in your project are which?
 
 | Folder                            | Type                                              |
 | --------------------------------- | ------------------------------------------------- |

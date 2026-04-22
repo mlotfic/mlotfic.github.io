@@ -1,4 +1,8 @@
 ---
+layout: post
+cover_color: #000000
+
+keywords: EPLAN P8, Project Structure, Forms, Reports, Document Types, Electrical Design, Project Documentation, Standard Forms, Report Generation, EPLAN P8 Reference
 
 title: "EPLAN Wire vs Cable in Schematic Drawing"
 
@@ -21,6 +25,7 @@ image:
   path: /assets/img/posts/eplan.jpg
   alt: EPLAN Wire vs Cable in Schematic Drawing
   lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  
 ---
 
 # EPLAN Electric P8 — Wire vs Cable in Schematic Drawing

@@ -1,6 +1,10 @@
 ---
+layout: post
+keywords: EPLAN P8, Forms, Reports, Project Structure, Electric P8, Documentation, Project Tree, Forms Reference, Report Generation
 
-title: 
+cover_color: #000000
+
+title: "EPLAN P8 Project Structure - Forms and Reports"
 
 description: >-
   A comprehensive reference guide to the standard report and form structure of an EPLAN Electric P8 project, including form types, purposes, examples, and applicable standards.
