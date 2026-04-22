@@ -8,8 +8,8 @@ description: >-
 date: 2026-04-22 10:00:00 +0800
 author: Mahmoud Lotfi
 file_name: 2026-04-22-sql-spatial-analysis-base-knowledge-1.md
-categories: [SQL, Spatial Analysis, base-knowledge]
-tags: [SQL, Spatial Analysis, base-knowledge]
+categories: [SQL, Spatial Analysis, baseknowledge]
+tags: [SQL, Spatial Analysis, baseknowledge]
 pin: False
 math: true
 mermaid: true
