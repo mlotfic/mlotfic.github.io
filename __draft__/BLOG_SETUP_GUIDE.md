@@ -603,7 +603,7 @@ graph LR
 | Power Factor | 0.80 | **0.95** |
 
 > **Note:** Always verify capacitor ratings for the specific voltage and frequency.
-{: .prompt-warning }
+{: #.prompt-warning }
 ```
 
 ---
@@ -796,7 +796,7 @@ git push origin feature/pid-tuning
 
 ## Common Issues & Fixes
 > **Tip:** Use `git status` before every commit to review changes.
-{: .prompt-tip }
+{: #.prompt-tip }
 ```
 
 ---
@@ -897,7 +897,7 @@ class PIDController:
 ### Highlighting specific lines
 
 ````markdown
-```python {: .highlight-line data-line="3,7"}
+```python {: #.highlight-line data-line="3,7"}
 # Line 3 and 7 will be highlighted
 ````
 
@@ -988,24 +988,24 @@ _Figure 1: PID controller step response_
 ### Image with caption (Chirpy style)
 
 ```markdown
-![Circuit Diagram](/assets/img/posts/2025-02/circuit.png){: width="700" height="400" }
+![Circuit Diagram](/assets/img/posts/2025-02/circuit.png){: #width="700" height="400" }
 _Figure 1: RLC circuit schematic_
 ```
 
 ### Image sizing options
 
 ```markdown
-![image](/path){: width="400" }              # Fixed width
-![image](/path){: .w-50 .right }            # 50% width, float right
-![image](/path){: .w-75 .left }             # 75% width, float left
-![image](/path){: .shadow }                 # Drop shadow
+![image](/path){: #width="400" }              # Fixed width
+![image](/path){: #.w-50 .right }            # 50% width, float right
+![image](/path){: #.w-75 .left }             # 75% width, float left
+![image](/path){: #.shadow }                 # Drop shadow
 ```
 
 ### Dark/light mode images
 
 ```markdown
-![Light mode](/img/light.png){: .light }
-![Dark mode](/img/dark.png){: .dark }
+![Light mode](/img/light.png){: #.light }
+![Dark mode](/img/dark.png){: #.dark }
 ```
 
 ### Embed YouTube video
@@ -1024,20 +1024,20 @@ _Figure 1: RLC circuit schematic_
 
 ## 17. Prompts / Callout Boxes
 
-Chirpy provides four prompt types. Syntax: add `{: .prompt-TYPE }` after a blockquote.
+Chirpy provides four prompt types. Syntax: add `{: #.prompt-TYPE }` after a blockquote.
 
 ```markdown
 > **Tip:** Use `bundle exec jekyll serve --livereload` for hot reload during development.
-{: .prompt-tip }
+{: #.prompt-tip }
 
 > **Info:** The per-unit system simplifies multi-voltage power system calculations.
-{: .prompt-info }
+{: #.prompt-info }
 
 > **Warning:** Always verify capacitor voltage ratings before installation.
-{: .prompt-warning }
+{: #.prompt-warning }
 
 > **Danger:** Working with high-voltage systems requires qualified personnel only.
-{: .prompt-danger }
+{: #.prompt-danger }
 ```
 
 **Renders as colored boxes:**
