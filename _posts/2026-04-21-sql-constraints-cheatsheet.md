@@ -67,24 +67,24 @@ Two particularly useful gotchas are highlighted: **SQLite silently ignores FKs**
 ---
 
 ## Categories
-1. [PRIMARY KEY](#1--primary-key)
-2. [FOREIGN KEY](#2--foreign-key)
-3. [UNIQUE](#3--unique)
-4. [NOT NULL](#4--not-null)
-5. [CHECK](#5--check)
-6. [DEFAULT](#6--default)
-7. [AUTO_INCREMENT / Identity](#7--auto_increment--identity)
-8. [Adding Constraints to Existing Tables](#8--adding-constraints-to-existing-tables)
-9. [Dropping Constraints](#9--dropping-constraints)
-10. [Viewing & Inspecting Constraints](#10--viewing--inspecting-constraints)
-11. [Deferrable Constraints](#11--deferrable-constraints)
-12. [Constraint Naming Best Practices](#12--constraint-naming-best-practices)
-13. [Cross-Engine Master Table](#13--cross-engine-master-table)
-14. [Common Patterns & Examples](#14--common-patterns--examples)
+1. [PRIMARY KEY](#1-primary-key)
+2. [FOREIGN KEY](#2-foreign-key)
+3. [UNIQUE](#3-unique)
+4. [NOT NULL](#4-not-null)
+5. [CHECK](#5-check)
+6. [DEFAULT](#6-default)
+7. [AUTO_INCREMENT / Identity](#7-auto_increment-identity)
+8. [Adding Constraints to Existing Tables](#8-adding-constraints-to-existing-tables)
+9. [Dropping Constraints](#9-dropping-constraints)
+10. [Viewing & Inspecting Constraints](#10-viewing-inspecting-constraints)
+11. [Deferrable Constraints](#11-deferrable-constraints)
+12. [Constraint Naming Best Practices](#12-constraint-naming-best-practices)
+13. [Cross-Engine Master Table](#13-cross-engine-master-table)
+14. [Common Patterns & Examples](#14-common-patterns-examples)
 
 ---
 
-## 1. 🗝️ PRIMARY KEY {: #1--primary-key}
+## 1. 🗝️ PRIMARY KEY
 
 > Uniquely identifies each row. Cannot be NULL. Only one per table.
 
@@ -657,7 +657,7 @@ PRAGMA index_list(employees);         -- indexes (includes UNIQUE)
 
 ---
 
-## 11. ⏸️ Deferrable Constraints {: #11--deferrable-constraints}
+## 11. ⏸️ Deferrable Constraints
 
 > Delay constraint checking until end of transaction (useful for circular FKs or bulk operations).
 
@@ -770,7 +770,7 @@ CREATE TABLE employees (
 
 ---
 
-## 14. 🛠️ Common Patterns & Examples {: #14--common-patterns--examples}
+## 14. 🛠️ Common Patterns & Examples
 
 ---
 
