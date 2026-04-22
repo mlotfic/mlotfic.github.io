@@ -144,7 +144,7 @@ SELECT ST_SRID(position, 4326) FROM locations;   -- MySQL 8.0+
 
 ---
 
-## 2. 🏗️ Geometry Constructors {#2--geometry-constructors}
+## 2. 🏗️ Geometry Constructors {: 2--geometry-constructors}
 
 > Build geometry objects from coordinates.
 
@@ -477,7 +477,7 @@ AND ST_Distance_Sphere(position, ST_PointFromText('POINT(31.2357 30.0444)', 4326
 
 ---
 
-## 7. ✂️ Spatial Set Operations {#7--spatial-set-operations}
+## 7. ✂️ Spatial Set Operations {: 7--spatial-set-operations}
 
 > Compute new geometries from the intersection, union, or difference of two geometries.
 
@@ -832,7 +832,7 @@ LIMIT 5;
 
 ---
 
-## 13. 🛠️ Common Patterns & Examples {#13--common-patterns--examples}
+## 13. 🛠️ Common Patterns & Examples {: 13--common-patterns--examples}
 
 ---
 

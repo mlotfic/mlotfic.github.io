@@ -147,7 +147,7 @@ SQL databases use **vector** spatial data — shapes defined by coordinates:
 
 ---
 
-## 3. 🗺️ Coordinate Systems & SRID {#3--coordinate-systems--srid}
+## 3. 🗺️ Coordinate Systems & SRID {: 3--coordinate-systems--srid}
 
 This is the most critical concept to understand before doing any spatial work.
 
@@ -914,7 +914,7 @@ SELECT ST_GeomFromGeoJSON('{"type":"Point","coordinates":[31.2357,30.0444]}');
 
 ---
 
-## 9. ⚙️ Common Spatial Operations Explained {#9--common-spatial-operations-explained}
+## 9. ⚙️ Common Spatial Operations Explained {: 9--common-spatial-operations-explained}
 
 ### Buffer — Creating a Zone Around a Geometry
 
@@ -1109,7 +1109,7 @@ UPDATE regions SET boundary = ST_MakeValid(boundary) WHERE NOT ST_IsValid(bounda
 
 ---
 
-## 10. 🏙️ Real-World Use Cases {#10--real-world-use-cases}
+## 10. 🏙️ Real-World Use Cases {: 10--real-world-use-cases}
 
 ### Use Case 1 — Store Locator (Nearest Stores)
 ```sql
@@ -1249,7 +1249,7 @@ ORDER BY incident_count DESC;
 
 ---
 
-## 11. ⚠️ Common Mistakes & Gotchas {#11--common-mistakes--gotchas}
+## 11. ⚠️ Common Mistakes & Gotchas {: 11--common-mistakes--gotchas}
 
 ### Mistake 1 — Swapping Latitude and Longitude
 ```sql
@@ -1390,7 +1390,7 @@ SELECT ST_AsText(ST_PointOnSurface(boundary)) FROM regions;
 
 ---
 
-## 12. 🛠️ Choosing the Right Tool / Engine {#12--choosing-the-right-tool--engine}
+## 12. 🛠️ Choosing the Right Tool / Engine {: 12--choosing-the-right-tool--engine}
 
 | Need | Best Choice |
 |------|-------------|

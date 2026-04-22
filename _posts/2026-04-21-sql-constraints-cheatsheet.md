@@ -84,7 +84,7 @@ Two particularly useful gotchas are highlighted: **SQLite silently ignores FKs**
 
 ---
 
-## 1. 🗝️ PRIMARY KEY {#1--primary-key}
+## 1. 🗝️ PRIMARY KEY {: 1--primary-key}
 
 > Uniquely identifies each row. Cannot be NULL. Only one per table.
 
@@ -657,7 +657,7 @@ PRAGMA index_list(employees);         -- indexes (includes UNIQUE)
 
 ---
 
-## 11. ⏸️ Deferrable Constraints {#11--deferrable-constraints}
+## 11. ⏸️ Deferrable Constraints {: 11--deferrable-constraints}
 
 > Delay constraint checking until end of transaction (useful for circular FKs or bulk operations).
 
@@ -770,7 +770,7 @@ CREATE TABLE employees (
 
 ---
 
-## 14. 🛠️ Common Patterns & Examples {#14--common-patterns--examples}
+## 14. 🛠️ Common Patterns & Examples {: 14--common-patterns--examples}
 
 ---
 

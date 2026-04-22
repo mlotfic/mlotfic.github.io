@@ -33,7 +33,7 @@ read_baseurl() {
     read -ra config_array <<<"$_config"
 
     # reverse loop the config files
-    for ((i = ${#config_array[@]} - 1; i >= 0; i--)); do
+    for ((i = ${: config_array[@]} - 1; i >= 0; i--)); do
       _tmp_baseurl="$(grep '^baseurl:' "${config_array[i]}" | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
 
       if [[ -n $_tmp_baseurl ]]; then
