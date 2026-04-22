@@ -173,4 +173,4 @@ DOCUMENT:     Use standardized abbreviations
 
 ---
 
-For the complete detailed guide with JSON examples and automation tips, see our [full documentation](/posts/page-structure-complete-reference/).
+For the complete detailed guide with JSON examples and automation tips, see our [full documentation](/posts/eplan-page-structure-guide-1/).

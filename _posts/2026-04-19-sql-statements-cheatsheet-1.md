@@ -80,7 +80,7 @@ Each section includes a full cross-engine compatibility table for **MySQL, SQLit
 
 ---
 
-## 1. 🏗️ DDL — Data Definition Language
+## 1. 🏗️ DDL — Data Definition Language {#1--ddl--data-definition-language}
 
 > Create, modify, and delete database structures.
 
@@ -174,7 +174,7 @@ DROP INDEX idx_email ON employees;
 
 ---
 
-## 2. ✏️ DML — Data Manipulation Language
+## 2. ✏️ DML — Data Manipulation Language {#2--dml--data-manipulation-language}
 
 > Insert, update, delete, and replace rows.
 
@@ -679,7 +679,7 @@ EXPLAIN ANALYZE SELECT * FROM employees WHERE salary > 60000;  -- PostgreSQL
 
 ---
 
-## 9. 👁️ Views
+## 9. 👁️ Views {#9--views}
 
 > Virtual tables based on a SELECT query.
 
@@ -731,7 +731,7 @@ REFRESH MATERIALIZED VIEW dept_summary;
 
 ---
 
-## 10. ⚙️ Stored Procedures & Functions
+## 10. ⚙️ Stored Procedures & Functions {#10--stored-procedures--functions}
 
 > Reusable, named blocks of SQL logic.
 

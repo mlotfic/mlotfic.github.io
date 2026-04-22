@@ -1,4 +1,5 @@
 ---
+layout: post
 
 title: SQL Constraints Cheatsheet
 
@@ -20,6 +21,7 @@ image:
   path: /assets/img/posts/sql.jpg
   alt: SQL Constraints Cheatsheet
   lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+
 ---
 
 # 🔒 SQL Constraints Cheatsheet
@@ -79,7 +81,7 @@ Two particularly useful gotchas are highlighted: **SQLite silently ignores FKs**
 
 ---
 
-## 1. 🗝️ PRIMARY KEY
+## 1. 🗝️ PRIMARY KEY {#1--primary-key}
 
 > Uniquely identifies each row. Cannot be NULL. Only one per table.
 
@@ -652,7 +654,7 @@ PRAGMA index_list(employees);         -- indexes (includes UNIQUE)
 
 ---
 
-## 11. ⏸️ Deferrable Constraints
+## 11. ⏸️ Deferrable Constraints {#11--deferrable-constraints}
 
 > Delay constraint checking until end of transaction (useful for circular FKs or bulk operations).
 
@@ -765,7 +767,7 @@ CREATE TABLE employees (
 
 ---
 
-## 14. 🛠️ Common Patterns & Examples
+## 14. 🛠️ Common Patterns & Examples {#14--common-patterns--examples}
 
 ---
 
