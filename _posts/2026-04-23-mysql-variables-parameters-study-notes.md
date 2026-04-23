@@ -52,7 +52,7 @@ image:
 
 ---
 
-## 1. 📌 Variables — What They Are
+## 1. Variables — What They Are
 
 A **variable** is a named placeholder that stores a value.
 
@@ -68,7 +68,7 @@ variable = a name  +  a stored value  +  the ability to change
 
 ---
 
-## 2. 🗺️ Where Variables Can Be Created
+## 2. Where Variables Can Be Created
 
 | Location | Command | Has `@` prefix? |
 |----------|---------|-----------------|

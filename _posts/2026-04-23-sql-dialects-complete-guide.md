@@ -101,7 +101,7 @@ Over time these became the dialect. Some of these vendor innovations were so goo
 
 ---
 
-## 2. 📐 The Standard — ANSI SQL
+## 2. The Standard — ANSI SQL
 
 **What it is:** The international standard SQL specification, maintained by ANSI and ISO. Updated in versions: SQL-86, SQL-92, SQL:1999, SQL:2003, SQL:2011, SQL:2016, SQL:2023.
 
