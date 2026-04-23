@@ -1,21 +1,54 @@
+---
+layout: post
+cover_color: #000000
+
+keywords: MySQL, Variables, Parameters, Stored Procedures, SET, DECLARE, SELECT INTO, IN, OUT, INOUT, Lucky Shrub Gardening Center, SQL Variables, SQL Parameters, MySQL Stored Procedures, MySQL Variables Study Notes, MySQL Parameters Study Notes, MySQL Variables and Parameters in Stored Procedures, MySQL Variables and Parameters in Stored Procedures Study Notes, MySQL Variables and Parameters in Stored Procedures Study Notes with Examples, MySQL Variables and Parameters in Stored Procedures Study Notes with Examples Based on Lucky Shrub Gardening Center Use Cases
+
+title: MySQL — Variables & Parameters in Stored Procedures
+
+description: >-
+  A comprehensive guide to MySQL variables and parameters in stored procedures, covering SET, DECLARE, SELECT INTO, IN, OUT, and INOUT parameters with examples based on Lucky Shrub Gardening Center use cases.
+date: 2026-04-23 10:00:00 +0800
+author: Mahmoud Lotfi
+file_name: MySQL_Variables_Parameters_Study_Notes.md
+categories: [SQL, MySQL, Stored Procedures]
+tags: [MySQL, Variables, Parameters, Stored Procedures, SQL]
+pin: False
+math: true
+mermaid: true
+comments: true
+toc: true
+render_with_liquid: false
+
+image:
+  path: /assets/img/posts/sql.jpg
+  alt: MySQL Variables & Parameters in Stored Procedures
+  lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+
+---
+
+
+
+
+
 # 📘 MySQL — Variables & Parameters in Stored Procedures
 > Study notes with examples · Based on Lucky Shrub Gardening Center use cases
 
 ---
 
 ## Table of Contents
-1. [Variables — What They Are](#1--variables--what-they-are)
-2. [Where Variables Can Be Created](#2--where-variables-can-be-created)
-3. [Method 1 — SET Outside a Procedure](#3--method-1--set-outside-a-procedure)
-4. [Method 2 — DECLARE Inside a Procedure](#4--method-2--declare-inside-a-procedure)
-5. [Method 3 — Variable Inside a SELECT](#5--method-3--variable-inside-a-select)
-6. [Method 4 — SELECT … INTO Variable](#6--method-4--select--into-variable)
-7. [Parameters — What They Are](#7--parameters--what-they-are)
-8. [IN Parameter](#8--in-parameter)
-9. [OUT Parameter](#9--out-parameter)
-10. [INOUT Parameter](#10--inout-parameter)
-11. [Quick Comparison Table](#11--quick-comparison-table)
-12. [Common Mistakes](#12--common-mistakes)
+1. [Variables — What They Are](#1-variables--what-they-are)
+2. [Where Variables Can Be Created](#2-where-variables-can-be-created)
+3. [Method 1 — SET Outside a Procedure](#3-method-1--set-outside-a-procedure)
+4. [Method 2 — DECLARE Inside a Procedure](#4-method-2--declare-inside-a-procedure)
+5. [Method 3 — Variable Inside a SELECT](#5-method-3--variable-inside-a-select)
+6. [Method 4 — SELECT … INTO Variable](#6-method-4--select--into-variable)
+7. [Parameters — What They Are](#7-parameters--what-they-are)
+8. [IN Parameter](#8-in-parameter)
+9. [OUT Parameter](#9-out-parameter)
+10. [INOUT Parameter](#10-inout-parameter)
+11. [Quick Comparison Table](#11-quick-comparison-table)
+12. [Common Mistakes](#12-common-mistakes)
 
 ---
 
@@ -46,7 +79,7 @@ variable = a name  +  a stored value  +  the ability to change
 
 ---
 
-## 3. ⚙️ Method 1 — SET Outside a Procedure
+## 3. Method 1 — SET Outside a Procedure
 
 Use `SET` to create and assign a value to a variable **outside** any procedure.
 
@@ -74,7 +107,7 @@ UPDATE orders SET status = 'cancelled' WHERE id = @order_id;
 
 ---
 
-## 4. 🏗️ Method 2 — DECLARE Inside a Procedure
+## 4. Method 2 — DECLARE Inside a Procedure
 
 Use `DECLARE` to create a variable **inside** a stored procedure.
 
@@ -113,7 +146,7 @@ CALL get_min_order_cost();
 
 ---
 
-## 5. 📝 Method 3 — Variable Inside a SELECT
+## 5. Method 3 — Variable Inside a SELECT
 
 Assign a value to a variable **directly inside a SELECT statement** using the `:=` assignment operator.
 
@@ -142,7 +175,7 @@ SELECT @max_order;
 
 ---
 
-## 6. 📥 Method 4 — SELECT … INTO Variable
+## 6. Method 4 — SELECT … INTO Variable
 
 Assign the **result of a function** directly to a variable using `SELECT … INTO`.
 
@@ -169,7 +202,7 @@ SELECT @average_cost AS average_order_cost;
 
 ---
 
-## 7. 🎛️ Parameters — What They Are
+## 7. Parameters — What They Are
 
 A **parameter** passes arguments (values) into or out of a stored procedure **from the outside**.
 
@@ -187,7 +220,7 @@ Parameter =  the bridge between outside and inside the procedure
 
 ---
 
-## 8. ➡️ IN Parameter
+## 8. IN Parameter
 
 **Default parameter type.** Passes a value **INTO** the procedure. The procedure uses it but cannot send it back.
 
@@ -227,7 +260,7 @@ CALL calculate_tax(8500.00);
 
 ---
 
-## 9. ⬅️ OUT Parameter
+## 9. OUT Parameter
 
 **Passes a value OUT** from the procedure to an external variable. The procedure writes to it; the caller reads it.
 
@@ -275,7 +308,7 @@ SELECT @result AS lowest_order_cost;
 
 ---
 
-## 10. 🔁 INOUT Parameter
+## 10. INOUT Parameter
 
 **Combination of IN and OUT.** The caller passes a value in, the procedure modifies it, and the new value is returned back to the caller's variable.
 
@@ -331,7 +364,7 @@ SELECT @x_number           →  displays 25
 
 ---
 
-## 11. 📊 Quick Comparison Table
+## 11. Quick Comparison Table
 
 | Feature | `SET @var` | `DECLARE var` | `SELECT @var :=` | `SELECT INTO @var` |
 |---------|-----------|---------------|------------------|--------------------|
@@ -351,7 +384,7 @@ SELECT @x_number           →  displays 25
 
 ---
 
-## 12. ⚠️ Common Mistakes
+## 12. Common Mistakes
 
 ### Mistake 1 — Using `=` instead of `:=` inside SELECT
 ```sql

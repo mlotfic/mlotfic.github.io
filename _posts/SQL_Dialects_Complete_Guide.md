@@ -1,5 +1,28 @@
-# 🗣️ SQL Dialects — T-SQL, PL/SQL, PL/pgSQL and More
-> A calm, honest guide to all SQL "flavors" — what they are, who uses them, when they matter, and why they're not as scary as they sound
+---
+layout: post
+cover_color: #000000
+
+keywords: SQL, Dialects, T-SQL, PL/SQL, PL/pgSQL, MySQL, SQLite, PostgreSQL, SQL Server, Oracle, MS Access, ANSI SQL, SQL Functions, SQL Syntax, SQL Features, SQL Comparison, SQL Learning, SQL Cheatsheet, SQL Reference, SQL Tutorial, SQL Guide, SQL Best Practices, SQL Common Mistakes, SQL Pros and Cons, SQL When It Matters, SQL How to Learn, SQL 80% Never Changes, SQL Dialects Complete Guide, SQL Dialects T-SQL, SQL Dialects PL/SQL, SQL Dialects PL/pgSQL, SQL Dialects MySQL, SQL Dialects SQLite, SQL Dialects PostgreSQL, SQL Dialects SQL Server, SQL Dialects Oracle, SQL Dialects MS Access, SQL Dialects ANSI SQL, SQL Dialects SQL Functions, SQL Dialects SQL Syntax, SQL Dialects SQL Features, SQL Dialects SQL Comparison, SQL Dialects SQL Learning, SQL Dialects SQL Cheatsheet, SQL Dialects SQL Reference, SQL Dialects SQL Tutorial, SQL Dialects SQL Guide, SQL Dialects SQL Best Practices, SQL Dialects SQL Common Mistakes, SQL Dialects SQL Pros and Cons, SQL Dialects SQL When It Matters, SQL Dialects SQL How to Learn, SQL Dialects SQL 80% Never Changes, SQL Dialects Complete Guide with Examples, SQL Dialects Complete Guide with Examples Based on Lucky Shrub Gardening Center Use Cases
+
+title: SQL Dialects — T-SQL, PL/SQL, PL/pgSQL and More
+
+description: >-
+A calm, honest guide to all SQL "flavors" — what they are, who uses them, when they matter, and why they're not as scary as they sound. Covers T-SQL, PL/SQL, PL/pgSQL, MySQL, SQLite, PostgreSQL, SQL Server, Oracle, MS Access, ANSI SQL, SQL Functions, SQL Syntax, SQL Features, SQL Comparison, SQL Learning, SQL Cheatsheet, SQL Reference, SQL Tutorial, SQL Guide, SQL Best Practices, SQL Common Mistakes, SQL Pros and Cons, SQL When It Matters, SQL How to Learn, SQL 80% Never Changes, SQL Dialects Complete Guide, SQL Dialects T-SQL, SQL Dialects PL/SQL, SQL Dialects PL/pgSQL, SQL Dialects MySQL, SQL Dialects SQLite, SQL Dialects PostgreSQL, SQL Dialects SQL Server, SQL Dialects Oracle, SQL Dialects MS Access, SQL Dialects ANSI SQL, SQL Dialects SQL Functions, SQL Dialects SQL Syntax, SQL Dialects SQL Features, SQL Dialects SQL Comparison, SQL Dialects SQL Learning, SQL Dialects SQL Cheatsheet, SQL Dialects SQL Reference, SQL Dialects SQL Tutorial, SQL Dialects SQL Guide, SQL Dialects SQL Best Practices, SQL Dialects SQL Common Mistakes, SQL Dialects SQL Pros and Cons, SQL Dialects SQL When It Matters, SQL Dialects SQL How to Learn, SQL Dialects SQL 80% Never Changes, SQL Dialects Complete Guide with Examples, SQL Dialects Complete Guide with Examples Based on Lucky Shrub Gardening Center Use Cases
+date: 2026-04-23 10:00:00 +0800
+author: Mahmoud Lotfi
+file_name: SQL_Dialects_Complete_Guide.md
+categories: [SQL, Dialects, T-SQL, PL/SQL, PL/pgSQL, MySQL, SQLite, PostgreSQL, SQL Server, Oracle, MS Access, ANSI SQL, SQL Functions, SQL Syntax, SQL Features, SQL Comparison, SQL Learning, SQL Cheatsheet, SQL Reference, SQL Tutorial, SQL Guide, SQL Best Practices, SQL Common Mistakes, SQL Pros and Cons, SQL When It Matters, SQL How to Learn, SQL 80% Never Changes, SQL Dialects Complete Guide, SQL Dialects T-SQL, SQL Dialects PL/SQL, SQL Dialects PL/pgSQL, SQL Dialects MySQL, SQL Dialects SQLite, SQL Dialects PostgreSQL, SQL Dialects SQL Server, SQL Dialects Oracle, SQL Dialects MS Access, SQL Dialects ANSI SQL, SQL Dialects SQL Functions, SQL Dialects SQL Syntax, SQL Dialects SQL Features, SQL Dialects SQL Comparison, SQL Dialects SQL Learning, SQL Dialects SQL Cheatsheet, SQL Dialects SQL Reference, SQL Dialects SQL Tutorial, SQL Dialects SQL Guide, SQL Dialects SQL Best Practices, SQL Dialects SQL Common Mistakes, SQL Dialects SQL Pros and Cons, SQL Dialects SQL When It Matters, SQL Dialects SQL How to Learn, SQL Dialects SQL 80% Never Changes, SQL Dialects Complete Guide with Examples, SQL Dialects Complete Guide with Examples Based on Lucky Shrub Gardening Center Use Cases]
+pin: False
+math: true
+mermaid: true
+comments: true
+toc: true
+render_with_liquid: false
+
+image:
+  path: /assets/img/posts/sql.jpg
+  alt: SQL Dialects — T-SQL, PL/SQL, PL/pgSQL and More
+  lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
 
 ---
 
@@ -30,23 +53,23 @@ learn its quirks.
 ---
 
 ## Table of Contents
-1. [What Is a SQL Dialect?](#1--what-is-a-sql-dialect)
-2. [The Standard — ANSI SQL](#2--the-standard--ansi-sql)
-3. [T-SQL — Transact-SQL (SQL Server & Azure)](#3--t-sql--transact-sql-sql-server--azure)
-4. [PL/SQL — Oracle](#4--plsql--oracle)
-5. [PL/pgSQL — PostgreSQL](#5--plpgsql--postgresql)
-6. [MySQL SQL — MySQL & MariaDB](#6--mysql-sql--mysql--mariadb)
-7. [SQLite](#7--sqlite)
-8. [Side-by-Side Comparison — Same Task, Every Dialect](#8--side-by-side-comparison--same-task-every-dialect)
-9. [Who Talks About Which Dialect — and Where](#9--who-talks-about-which-dialect--and-where)
-10. [When Does the Dialect Actually Matter?](#10--when-does-the-dialect-actually-matter)
-11. [Pros & Cons of Each](#11--pros--cons-of-each)
-12. [How to Learn a New Dialect Quickly](#12--how-to-learn-a-new-dialect-quickly)
-13. [The 80% That Never Changes](#13--the-80-that-never-changes)
+1. [What Is a SQL Dialect?](#1-what-is-a-sql-dialect)
+2. [The Standard — ANSI SQL](#2-the-standard--ansi-sql)
+3. [T-SQL — Transact-SQL (SQL Server & Azure)](#3-t-sql--transact-sql-sql-server--azure)
+4. [PL/SQL — Oracle](#4-plsql--oracle)
+5. [PL/pgSQL — PostgreSQL](#5-plpgsql--postgresql)
+6. [MySQL SQL — MySQL & MariaDB](#6-mysql-sql--mysql--mariadb)
+7. [SQLite](#7-sqlite)
+8. [Side-by-Side Comparison — Same Task, Every Dialect](#8-side-by-side-comparison--same-task-every-dialect)
+9. [Who Talks About Which Dialect — and Where](#9-who-talks-about-which-dialect--and-where)
+10. [When Does the Dialect Actually Matter?](#10-when-does-the-dialect-actually-matter)
+11. [Pros & Cons of Each](#11-pros--cons-of-each)
+12. [How to Learn a New Dialect Quickly](#12-how-to-learn-a-new-dialect-quickly)
+13. [The 80% That Never Changes](#13-the-80-that-never-changes)
 
 ---
 
-## 1. 🧩 What Is a SQL Dialect?
+## 1. What Is a SQL Dialect?
 
 **SQL (Structured Query Language)** is the universal language for databases.
 It was standardized by ANSI (American National Standards Institute) so that, in theory, every database speaks the same language.
@@ -116,7 +139,7 @@ All of the above work identically in MySQL, SQL Server, PostgreSQL, Oracle, and 
 
 ---
 
-## 3. 💙 T-SQL — Transact-SQL (SQL Server & Azure)
+## 3. T-SQL — Transact-SQL (SQL Server & Azure)
 
 ### What Is It?
 T-SQL (Transact-SQL) is Microsoft's extension of SQL, used in:
@@ -269,7 +292,7 @@ JOIN dept_summary ds ON ds.dept_id = d.id;
 
 ---
 
-## 4. 🟠 PL/SQL — Oracle
+## 4. PL/SQL — Oracle
 
 ### What Is It?
 PL/SQL (Procedural Language / SQL) is Oracle's extension. The most powerful and feature-rich dialect. Used in:
@@ -395,7 +418,7 @@ END;
 
 ---
 
-## 5. 🐘 PL/pgSQL — PostgreSQL
+## 5. PL/pgSQL — PostgreSQL
 
 ### What Is It?
 PL/pgSQL is PostgreSQL's procedural language — heavily inspired by Oracle's PL/SQL, but open source. PostgreSQL itself is known as the most standards-compliant SQL database.
@@ -495,7 +518,7 @@ SELECT $msg$ He said "Hello" $msg$ AS quote;
 
 ---
 
-## 6. 🐬 MySQL SQL — MySQL & MariaDB
+## 6. MySQL SQL — MySQL & MariaDB
 
 ### What Is It?
 MySQL is the world's most widely deployed open-source database. MariaDB is a fork of MySQL with some additional features. Their SQL dialect is what you already know.
@@ -545,7 +568,7 @@ CALL my_proc();
 
 ---
 
-## 7. 📦 SQLite
+## 7. SQLite
 
 ### What Is It?
 SQLite is a **serverless**, **file-based** database engine. The entire database lives in a single file on disk. No installation, no server process.
@@ -586,7 +609,7 @@ PRAGMA index_list(employees); -- show indexes
 
 ---
 
-## 8. 🔄 Side-by-Side Comparison — Same Task, Every Dialect
+## 8. Side-by-Side Comparison — Same Task, Every Dialect
 
 ### Task: Get current date and time
 
@@ -662,7 +685,7 @@ PRAGMA index_list(employees); -- show indexes
 
 ---
 
-## 9. 👥 Who Talks About Which Dialect — and Where
+## 9. Who Talks About Which Dialect — and Where
 
 ### When someone says "T-SQL"
 ```
@@ -706,7 +729,7 @@ Data engineers (like you)          → MySQL + PostgreSQL + cloud SQL
 
 ---
 
-## 10. ⏰ When Does the Dialect Actually Matter?
+## 10. When Does the Dialect Actually Matter?
 
 ### It DOES matter when:
 
@@ -762,7 +785,7 @@ Data engineers (like you)          → MySQL + PostgreSQL + cloud SQL
 
 ---
 
-## 11. ⚖️ Pros & Cons of Each
+## 11. Pros & Cons of Each
 
 ### T-SQL (SQL Server)
 
@@ -830,7 +853,7 @@ Data engineers (like you)          → MySQL + PostgreSQL + cloud SQL
 
 ---
 
-## 12. 🚀 How to Learn a New Dialect Quickly
+## 12. How to Learn a New Dialect Quickly
 
 If you know MySQL and need to work in T-SQL or PostgreSQL:
 
@@ -867,7 +890,7 @@ Nothing cements knowledge like building something real.
 
 ---
 
-## 13. 📚 The 80% That Never Changes
+## 13. The 80% That Never Changes
 
 This is what you already know that works in EVERY dialect:
 

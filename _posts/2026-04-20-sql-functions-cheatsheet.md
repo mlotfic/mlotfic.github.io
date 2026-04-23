@@ -2,12 +2,13 @@
 layout: post
 cover_color: #000000
 
-keywords: EPLAN P8, Project Structure, Forms, Reports, Document Types, Electrical Design, Project Documentation, Standard Forms, Report Generation, EPLAN P8 Reference
+keywords: SQL, Functions, Aggregate, String, Math, Date & Time, Comparison & Logical, Window Functions, Type Conversion, Security & Hashing, JSON, NULL Handling, Common Patterns, SQL Functions Reference
 
 title: SQL Functions Cheatsheet
 
 description: >-
   A comprehensive cheatsheet covering all SQL functions, including Aggregate, String, Math, Date & Time, Comparison & Logical, Window Functions, Type Conversion, Security & Hashing, JSON, NULL Handling, and Common Patterns. Includes inline and table-level syntax, add/drop/modify examples, cross-engine compatibility.
+
 date: 2026-04-22 10:00:00 +0800
 author: Mahmoud Lotfi
 file_name: 2026-04-22-sql-functions-cheatsheet.md
@@ -24,15 +25,16 @@ image:
   path: /assets/img/posts/sql.jpg
   alt: SQL Functions Cheatsheet
   lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+
 ---
 
-# 📊 SQL Functions Cheatsheet
+# 1. 📊 SQL Functions Cheatsheet
 
 > Grouped by category · Common syntax examples · Cross-engine compatibility
 
 ---
 
-## Legend
+## 1.1. Legend
 | Symbol | Meaning |
 |--------|---------|
 | ✅ | Supported (same or very similar syntax) |
@@ -59,7 +61,7 @@ Each section includes a cross-engine compatibility table for **MySQL, SQLite, Po
 
 ---
 
-## 1. 🔢 Aggregate Functions
+## 1.2. 🔢 Aggregate Functions
 
 > Operate on a set of rows and return a single summary value.
 
@@ -75,7 +77,7 @@ Each section includes a cross-engine compatibility table for **MySQL, SQLite, Po
 | `STD()` / `STDDEV()` | Population std deviation | `SELECT STDDEV(salary) FROM employees;` |
 | `VARIANCE()` | Population variance | `SELECT VARIANCE(score) FROM results;` |
 
-### Cross-Engine Compatibility
+### 1.2.1. Cross-Engine Compatibility
 
 | Function | MySQL | SQLite | PostgreSQL | SQL Server | Oracle | MS Access |
 |----------|-------|--------|------------|------------|--------|-----------|
@@ -88,7 +90,7 @@ Each section includes a cross-engine compatibility table for **MySQL, SQLite, Po
 
 ---
 
-## 2. 🔤 String Functions
+## 1.3. 🔤 String Functions
 
 > Manipulate and analyze text data.
 
@@ -117,7 +119,7 @@ Each section includes a cross-engine compatibility table for **MySQL, SQLite, Po
 | `STRCMP()` | Compare two strings | `SELECT STRCMP('abc', 'abd');` |
 | `SOUNDEX()` | Phonetic encoding | `SELECT SOUNDEX('Robert');` |
 
-### Cross-Engine Compatibility
+### 1.3.1. Cross-Engine Compatibility
 
 | Function | MySQL | SQLite | PostgreSQL | SQL Server | Oracle | MS Access |
 |----------|-------|--------|------------|------------|--------|-----------|
@@ -133,7 +135,7 @@ Each section includes a cross-engine compatibility table for **MySQL, SQLite, Po
 
 ---
 
-## 3. 🔢 Math / Numeric Functions
+## 1.4. 🔢 Math / Numeric Functions
 
 > Perform calculations on numeric data.
 
@@ -159,7 +161,7 @@ Each section includes a cross-engine compatibility table for **MySQL, SQLite, Po
 | `LEAST()` | Smallest of arguments | `SELECT LEAST(3, 7, 2);` → `2` |
 | `DIV` | Integer division | `SELECT 17 DIV 5;` → `3` |
 
-### Cross-Engine Compatibility
+### 1.4.1. Cross-Engine Compatibility
 
 | Function | MySQL | SQLite | PostgreSQL | SQL Server | Oracle | MS Access |
 |----------|-------|--------|------------|------------|--------|-----------|
@@ -176,7 +178,7 @@ Each section includes a cross-engine compatibility table for **MySQL, SQLite, Po
 
 ---
 
-## 4. 📅 Date & Time Functions
+## 1.5. 📅 Date & Time Functions
 
 > Work with date and time values.
 
@@ -207,7 +209,7 @@ Each section includes a cross-engine compatibility table for **MySQL, SQLite, Po
 | `FROM_UNIXTIME()` | Unix epoch to datetime | `SELECT FROM_UNIXTIME(1708905600);` |
 | `LAST_DAY()` | Last day of the month | `SELECT LAST_DAY('2025-02-01');` → `2025-02-28` |
 
-### Cross-Engine Compatibility
+### 1.5.1. Cross-Engine Compatibility
 
 | Function | MySQL | SQLite | PostgreSQL | SQL Server | Oracle | MS Access |
 |----------|-------|--------|------------|------------|--------|-----------|
@@ -221,7 +223,7 @@ Each section includes a cross-engine compatibility table for **MySQL, SQLite, Po
 
 ---
 
-## 5. ⚖️ Comparison & Logical Operators
+## 1.6. ⚖️ Comparison & Logical Operators
 
 > Filter and evaluate conditions.
 
@@ -259,7 +261,7 @@ SELECT name,
 FROM students;
 ```
 
-### Cross-Engine Compatibility
+### 1.6.1. Cross-Engine Compatibility
 
 | Function | MySQL | SQLite | PostgreSQL | SQL Server | Oracle | MS Access |
 |----------|-------|--------|------------|------------|--------|-----------|
@@ -273,7 +275,7 @@ FROM students;
 
 ---
 
-## 6. 🪟 Window Functions
+## 1.7. 🪟 Window Functions
 
 > Calculations across a set of rows related to the current row — no GROUP BY collapse.
 
@@ -302,7 +304,7 @@ SELECT
 FROM employees;
 ```
 
-### Cross-Engine Compatibility
+### 1.7.1. Cross-Engine Compatibility
 
 | Function | MySQL | SQLite | PostgreSQL | SQL Server | Oracle | MS Access |
 |----------|-------|--------|------------|------------|--------|-----------|
@@ -315,7 +317,7 @@ FROM employees;
 
 ---
 
-## 7. 🔁 Conversion & Type Functions
+## 1.8. 🔁 Conversion & Type Functions
 
 > Cast or convert between data types.
 
@@ -332,7 +334,7 @@ FROM employees;
 | `TO_BASE64()` | Encode base64 | `SELECT TO_BASE64('hello');` |
 | `FROM_BASE64()` | Decode base64 | `SELECT FROM_BASE64('aGVsbG8=');` |
 
-### Cross-Engine Compatibility
+### 1.8.1. Cross-Engine Compatibility
 
 | Function | MySQL | SQLite | PostgreSQL | SQL Server | Oracle | MS Access |
 |----------|-------|--------|------------|------------|--------|-----------|
@@ -344,7 +346,7 @@ FROM employees;
 
 ---
 
-## 8. 🔐 Security & Hash Functions
+## 1.9. 🔐 Security & Hash Functions
 
 | Function | Description | Syntax Example |
 |----------|-------------|----------------|
@@ -355,7 +357,7 @@ FROM employees;
 | `AES_DECRYPT()` | AES decryption | `SELECT AES_DECRYPT(ciphertext, 'key');` |
 | `UUID()` | Generate UUID | `SELECT UUID();` → `550e8400-e29b-41d4-a716...` |
 
-### Cross-Engine Compatibility
+### 1.9.1. Cross-Engine Compatibility
 
 | Function | MySQL | SQLite | PostgreSQL | SQL Server | Oracle |
 |----------|-------|--------|------------|------------|--------|
@@ -365,7 +367,7 @@ FROM employees;
 
 ---
 
-## 9. 📋 JSON Functions (MySQL 5.7+)
+## 1.10. 📋 JSON Functions (MySQL 5.7+)
 
 | Function | Description | Syntax Example |
 |----------|-------------|----------------|
@@ -380,7 +382,7 @@ FROM employees;
 | `JSON_ARRAYAGG()` | Aggregate rows as JSON array | `SELECT JSON_ARRAYAGG(name) FROM employees GROUP BY dept;` |
 | `JSON_VALID()` | Validate JSON | `SELECT JSON_VALID('{"a":1}');` → `1` |
 
-### Cross-Engine Compatibility
+### 1.10.1. Cross-Engine Compatibility
 
 | Function | MySQL | SQLite | PostgreSQL | SQL Server | Oracle |
 |----------|-------|--------|------------|------------|--------|
@@ -391,7 +393,7 @@ FROM employees;
 
 ---
 
-## 10. ⚡ NULL Handling — Quick Reference
+## 1.11. ⚡ NULL Handling — Quick Reference
 
 ```sql
 -- Replace NULL with a default value
@@ -412,9 +414,9 @@ WHERE col IS NOT DISTINCT FROM NULL      -- PostgreSQL
 
 ---
 
-## 11. 📐 Useful Patterns
+## 1.12. 📐 Useful Patterns
 
-### Age Calculation
+### 1.12.1. Age Calculation
 ```sql
 -- MySQL
 SELECT TIMESTAMPDIFF(YEAR, birth_date, CURDATE()) AS age FROM users;
@@ -429,7 +431,7 @@ SELECT DATE_PART('year', AGE(birth_date)) AS age FROM users;
 SELECT (strftime('%Y','now') - strftime('%Y', birth_date)) AS age FROM users;
 ```
 
-### Running Total
+### 1.12.2. Running Total
 ```sql
 SELECT
   order_date,
@@ -441,7 +443,7 @@ SELECT
 FROM orders;
 ```
 
-### Top N Per Group
+### 1.12.3. Top N Per Group
 ```sql
 SELECT * FROM (
   SELECT *,
@@ -451,7 +453,7 @@ SELECT * FROM (
 WHERE rn <= 3;
 ```
 
-### Conditional Aggregation (Pivot-style)
+### 1.12.4. Conditional Aggregation (Pivot-style)
 ```sql
 SELECT
   dept,
@@ -461,7 +463,7 @@ FROM employees
 GROUP BY dept;
 ```
 
-### Deduplicate — Keep Latest Row
+### 1.12.5. Deduplicate — Keep Latest Row
 ```sql
 DELETE FROM orders
 WHERE id NOT IN (

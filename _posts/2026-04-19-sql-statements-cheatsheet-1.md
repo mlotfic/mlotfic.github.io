@@ -1,9 +1,14 @@
 ---
+layout: post
+cover_color: #000000
 
-title: SQL Statements Cheatsheet
+keywords: SQL, DDL, DML, DQL, Joins, Subqueries, CTEs, Grouping, Aggregation, Filtering, Sorting, Indexes, Views, Stored Procedures, Functions, Triggers, Transactions, DCL, SQL Cheatsheet, Database Management, SQL Statements Reference
+
+title: SQL Statements Cheatsheet — Comprehensive Reference for All Database Operations
 
 description: >-
   A comprehensive cheatsheet covering all SQL statements, including DDL, DML, DQL, Joins, Subqueries & CTEs, Grouping & Aggregation, Filtering & Sorting, Indexes, Views, Stored Procedures & Functions, Triggers, Transactions, DCL, and Common Patterns. Includes inline and table-level syntax, add/drop/modify examples, cross-engine compatibility.
+
 date: 2026-04-22 10:00:00 +0800
 author: Mahmoud Lotfi
 file_name: 2026-04-22-sql-statements-cheatsheet-1.md
@@ -63,24 +68,24 @@ Each section includes a full cross-engine compatibility table for **MySQL, SQLit
 
 
 ## Categories
-1. [DDL — Data Definition Language](#1--ddl--data-definition-language)
-2. [DML — Data Manipulation Language](#2--dml--data-manipulation-language)
-3. [DQL — Data Query Language](#3--dql--data-query-language)
-4. [Joins](#4--joins)
-5. [Subqueries & CTEs](#5--subqueries--ctes)
-6. [Grouping & Aggregation](#6--grouping--aggregation)
-7. [Filtering & Sorting](#7--filtering--sorting)
-8. [Indexes](#8--indexes)
-9. [Views](#9--views)
-10. [Stored Procedures & Functions](#10--stored-procedures--functions)
-11. [Triggers](#11--triggers)
-12. [Transactions (TCL)](#12--transactions-tcl)
-13. [DCL — Data Control Language](#13--dcl--data-control-language)
-14. [Useful Patterns](#14--useful-patterns)
+1. [DDL — Data Definition Language](#1-ddl--data-definition-language)
+2. [DML — Data Manipulation Language](#2-dml--data-manipulation-language)
+3. [DQL — Data Query Language](#3-dql--data-query-language)
+4. [Joins](#4-joins)
+5. [Subqueries & CTEs](#5-subqueries--ctes)
+6. [Grouping & Aggregation](#6-grouping--aggregation)
+7. [Filtering & Sorting](#7-filtering--sorting)
+8. [Indexes](#8-indexes)
+9. [Views](#9-views)
+10. [Stored Procedures & Functions](#10-stored-procedures--functions)
+11. [Triggers](#11-triggers)
+12. [Transactions (TCL)](#12-transactions-tcl)
+13. [DCL — Data Control Language](#13-dcl--data-control-language)
+14. [Useful Patterns](#14-useful-patterns)
 
 ---
 
-## 1. 🏗️ DDL — Data Definition Language {: #1--ddl--data-definition-language}
+## 1. DDL — Data Definition Language
 
 > Create, modify, and delete database structures.
 
@@ -174,7 +179,7 @@ DROP INDEX idx_email ON employees;
 
 ---
 
-## 2. ✏️ DML — Data Manipulation Language {: #2--dml--data-manipulation-language}
+## 2. DML — Data Manipulation Language
 
 > Insert, update, delete, and replace rows.
 
@@ -257,7 +262,7 @@ VALUES (1, 'Updated Widget', 19.99);
 
 ---
 
-## 3. 🔍 DQL — Data Query Language
+## 3. DQL — Data Query Language
 
 > Retrieve data from tables.
 
@@ -310,7 +315,7 @@ SELECT * FROM products ORDER BY name LIMIT 10 OFFSET 20;  -- page 3, 10 per page
 
 ---
 
-## 4. 🔗 Joins
+## 4. Joins
 
 > Combine rows from multiple tables.
 
@@ -387,7 +392,7 @@ ORDER BY o.id;
 
 ---
 
-## 5. 📦 Subqueries & CTEs
+## 5. Subqueries & CTEs
 
 > Nested queries and reusable query blocks.
 
@@ -566,7 +571,7 @@ FROM employees;
 
 ---
 
-## 7. 🔎 Filtering & Sorting
+## 7. Filtering & Sorting
 
 > Narrow and order result sets.
 
@@ -634,7 +639,7 @@ SELECT * FROM employees ORDER BY YEAR(hire_date), salary DESC;
 
 ---
 
-## 8. 📇 Indexes
+## 8. Indexes
 
 > Speed up queries by creating lookup structures.
 
@@ -679,7 +684,7 @@ EXPLAIN ANALYZE SELECT * FROM employees WHERE salary > 60000;  -- PostgreSQL
 
 ---
 
-## 9. 👁️ Views {: #9--views}
+## 9. Views
 
 > Virtual tables based on a SELECT query.
 
@@ -731,7 +736,7 @@ REFRESH MATERIALIZED VIEW dept_summary;
 
 ---
 
-## 10. ⚙️ Stored Procedures & Functions {: #10--stored-procedures--functions}
+## 10. Stored Procedures & Functions
 
 > Reusable, named blocks of SQL logic.
 
@@ -789,7 +794,7 @@ SELECT name, annual_salary(salary) AS yearly FROM employees;
 
 ---
 
-## 11. ⚡ Triggers
+## 11. Triggers
 
 > Automatically execute SQL on INSERT / UPDATE / DELETE events.
 
@@ -839,7 +844,7 @@ DROP TRIGGER IF EXISTS trg_salary_audit;
 
 ---
 
-## 12. 💳 Transactions (TCL)
+## 12. Transactions (TCL)
 
 > Group statements into atomic units of work.
 
@@ -891,7 +896,7 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 
 ---
 
-## 13. 🔑 DCL — Data Control Language
+## 13. DCL — Data Control Language
 
 > Manage permissions and access.
 
@@ -931,7 +936,7 @@ FLUSH PRIVILEGES;
 
 ---
 
-## 14. 📐 Useful Patterns
+## 14. Useful Patterns
 
 ---
 

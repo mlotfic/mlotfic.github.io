@@ -84,7 +84,7 @@ Two particularly useful gotchas are highlighted: **SQLite silently ignores FKs**
 
 ---
 
-## 1. 🗝️ PRIMARY KEY
+## 1. PRIMARY KEY
 
 > Uniquely identifies each row. Cannot be NULL. Only one per table.
 
@@ -126,7 +126,7 @@ CREATE TABLE order_items (
 
 ---
 
-## 2. 🔗 FOREIGN KEY
+## 2. FOREIGN KEY
 
 > Enforces referential integrity between two tables.
 
@@ -200,7 +200,7 @@ SET FOREIGN_KEY_CHECKS = 1;   -- re-enable
 
 ---
 
-## 3. 🔑 UNIQUE
+## 3. UNIQUE
 
 > Ensures all values in a column (or combination) are distinct. Allows NULL (multiple NULLs allowed in most engines).
 
@@ -255,7 +255,7 @@ CREATE TABLE team_members (
 
 ---
 
-## 4. 🚫 NOT NULL
+## 4. NOT NULL
 
 > Prevents NULL values from being stored in a column.
 
@@ -296,7 +296,7 @@ CREATE TABLE events (
 
 ---
 
-## 5. ✅ CHECK
+## 5. CHECK
 
 > Validates that column values satisfy a boolean expression.
 
@@ -359,7 +359,7 @@ CREATE TABLE accounts (
 
 ---
 
-## 6. 📋 DEFAULT
+## 6. DEFAULT
 
 > Provides an automatic value when no value is specified on INSERT.
 
@@ -404,7 +404,7 @@ INSERT INTO orders (status, is_paid) VALUES (DEFAULT, 1);
 
 ---
 
-## 7. 🔢 AUTO_INCREMENT / Identity
+## 7. AUTO_INCREMENT / Identity
 
 > Automatically generates a unique integer for each new row.
 
@@ -454,7 +454,7 @@ CREATE TABLE users (
 
 ---
 
-## 8. ➕ Adding Constraints to Existing Tables
+## 8. Adding Constraints to Existing Tables
 
 > Use ALTER TABLE to add constraints after table creation.
 
@@ -520,7 +520,7 @@ ALTER TABLE users ALTER COLUMN email VARCHAR(150) NOT NULL;
 
 ---
 
-## 9. ➖ Dropping Constraints
+## 9. Dropping Constraints
 
 ### Drop PRIMARY KEY
 ```sql
@@ -594,7 +594,7 @@ ALTER TABLE users ALTER COLUMN email VARCHAR(150) NULL;
 
 ---
 
-## 10. 🔍 Viewing & Inspecting Constraints
+## 10. Viewing & Inspecting Constraints
 
 ### MySQL
 ```sql
@@ -657,7 +657,7 @@ PRAGMA index_list(employees);         -- indexes (includes UNIQUE)
 
 ---
 
-## 11. ⏸️ Deferrable Constraints
+## 11. Deferrable Constraints
 
 > Delay constraint checking until end of transaction (useful for circular FKs or bulk operations).
 
@@ -709,7 +709,7 @@ ALTER TABLE orders ENABLE  NOVALIDATE CONSTRAINT fk_orders_customer;  -- enable 
 
 ---
 
-## 12. 📝 Constraint Naming Best Practices
+## 12. Constraint Naming Best Practices
 
 > Always name your constraints — it makes ALTER, DROP, and error messages far easier.
 
@@ -751,7 +751,7 @@ CREATE TABLE employees (
 
 ---
 
-## 13. 📊 Cross-Engine Master Table
+## 13. Cross-Engine Master Table
 
 | Constraint | MySQL | SQLite | PostgreSQL | SQL Server | Oracle | MS Access |
 |------------|-------|--------|------------|------------|--------|-----------|
@@ -770,7 +770,7 @@ CREATE TABLE employees (
 
 ---
 
-## 14. 🛠️ Common Patterns & Examples
+## 14. Common Patterns & Examples
 
 ---
 
@@ -810,6 +810,7 @@ CONSTRAINT uq_team_user UNIQUE (team_id, user_id)
 ```
 
 ### Pattern 6 — Soft delete with UNIQUE only on active rows (PostgreSQL partial index)
+
 ```sql
 -- Only enforce uniqueness on active (non-deleted) rows
 CREATE UNIQUE INDEX uq_active_email
@@ -818,6 +819,7 @@ CREATE UNIQUE INDEX uq_active_email
 ```
 
 ### Pattern 7 — Self-referencing FK (tree/hierarchy)
+
 ```sql
 CREATE TABLE categories (
   id        INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -830,12 +832,14 @@ CREATE TABLE categories (
 ```
 
 ### Pattern 8 — Audit timestamps (DEFAULT + AUTO UPDATE)
+
 ```sql
 created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ```
 
 ### Pattern 9 — SQLite workaround for adding constraints
+
 ```sql
 -- SQLite does not support ALTER TABLE ADD CONSTRAINT.
 -- Standard workaround:
@@ -859,6 +863,7 @@ ALTER TABLE employees_new RENAME TO employees;
 ```
 
 ### Pattern 10 — Find tables with no PK (data quality check)
+
 ```sql
 -- MySQL
 SELECT table_name

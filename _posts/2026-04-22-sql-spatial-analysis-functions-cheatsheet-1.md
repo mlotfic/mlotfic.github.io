@@ -1,4 +1,8 @@
 ---
+layout: post
+cover_color: #000000
+
+keywords: SQL, Spatial Analysis, Functions, Geometry, Geography, WKT, WKB, SRID, ST_Contains, ST_Within, ST_Intersects, ST_Touches, ST_Transform, ST_SwapXY, ST_LineInterpolatePoint, Geohash, GeoJSON, Spatial Indexes, Window & Aggregate Spatial Functions, Cross-Engine Master Table, Common Patterns & Examples, SQL Spatial Analysis Functions Reference
 
 title: SQL Spatial Analysis Functions Cheatsheet
 
@@ -64,23 +68,23 @@ A few important gotchas are highlighted: **GEOMETRY vs GEOGRAPHY** accuracy trad
 ---
 
 ## Categories
-1. [Spatial Data Types](#1--spatial-data-types)
-2. [Geometry Constructors](#2--geometry-constructors)
-3. [Input / Output (WKT & WKB)](#3--input--output-wkt--wkb)
-4. [Geometry Properties](#4--geometry-properties)
-5. [Measurement Functions](#5--measurement-functions)
-6. [Spatial Relationship Functions](#6--spatial-relationship-functions)
-7. [Spatial Set Operations](#7--spatial-set-operations)
-8. [Coordinate & Projection Functions](#8--coordinate--projection-functions)
-9. [GeoJSON & Geohash](#9--geojson--geohash)
-10. [Spatial Indexes](#10--spatial-indexes)
-11. [Window & Aggregate Spatial Functions](#11--window--aggregate-spatial-functions)
-12. [Cross-Engine Master Table](#12--cross-engine-master-table)
-13. [Common Patterns & Examples](#13--common-patterns--examples)
+1. [Spatial Data Types](#1-spatial-data-types)
+2. [Geometry Constructors](#2-geometry-constructors)
+3. [Input / Output (WKT & WKB)](#3-input--output-wkt--wkb)
+4. [Geometry Properties](#4-geometry-properties)
+5. [Measurement Functions](#5-measurement-functions)
+6. [Spatial Relationship Functions](#6-spatial-relationship-functions)
+7. [Spatial Set Operations](#7-spatial-set-operations)
+8. [Coordinate & Projection Functions](#8-coordinate--projection-functions)
+9. [GeoJSON & Geohash](#9-geojson--geohash)
+10. [Spatial Indexes](#10-spatial-indexes)
+11. [Window & Aggregate Spatial Functions](#11-window--aggregate-spatial-functions)
+12. [Cross-Engine Master Table](#12-cross-engine-master-table)
+13. [Common Patterns & Examples](#13-common-patterns--examples)
 
 ---
 
-## 1. 📐 Spatial Data Types
+## 1. Spatial Data Types
 
 > Column types that store geometric/geographic objects.
 
@@ -144,7 +148,7 @@ SELECT ST_SRID(position, 4326) FROM locations;   -- MySQL 8.0+
 
 ---
 
-## 2. 🏗️ Geometry Constructors {: #2--geometry-constructors}
+## 2. Geometry Constructors
 
 > Build geometry objects from coordinates.
 
@@ -217,7 +221,7 @@ SELECT ST_GeomCollFromText(
 
 ---
 
-## 3. 📤 Input / Output (WKT & WKB)
+## 3. Input / Output (WKT & WKB)
 
 > Convert geometries to/from standard text and binary formats.
 
@@ -267,7 +271,7 @@ SELECT ST_AsText(ST_Envelope(geom)) FROM regions;
 
 ---
 
-## 4. 📏 Geometry Properties
+## 4. Geometry Properties
 
 > Inspect and decompose geometry objects.
 
@@ -322,7 +326,7 @@ SELECT ST_GeometryN(collection, 1)   FROM multi_shapes;    -- extract 1st geomet
 
 ---
 
-## 5. 📐 Measurement Functions
+## 5. Measurement Functions
 
 > Calculate distances, areas, and lengths.
 
@@ -386,7 +390,7 @@ SELECT ST_FrechetDistance(route_a, route_b)    FROM route_pairs;   -- MySQL 8.0.
 
 ---
 
-## 6. 🤝 Spatial Relationship Functions
+## 6. Spatial Relationship Functions
 
 > Test topological and geometric relationships between two geometries.
 
@@ -477,7 +481,7 @@ AND ST_Distance_Sphere(position, ST_PointFromText('POINT(31.2357 30.0444)', 4326
 
 ---
 
-## 7. ✂️ Spatial Set Operations {: #7--spatial-set-operations}
+## 7. Spatial Set Operations
 
 > Compute new geometries from the intersection, union, or difference of two geometries.
 
@@ -557,7 +561,7 @@ SELECT ST_AsText(ST_Centroid(boundary)) FROM regions;
 
 ---
 
-## 8. 🌐 Coordinate & Projection Functions
+## 8. Coordinate & Projection Functions
 
 > Transform coordinates between spatial reference systems.
 
@@ -620,7 +624,7 @@ SELECT ST_LongFromGeoHash('svhwsq3w');
 
 ---
 
-## 9. 🌍 GeoJSON & Geohash
+## 9. GeoJSON & Geohash
 
 > Exchange spatial data in standard web-friendly formats.
 
@@ -677,7 +681,7 @@ FROM locations;
 
 ---
 
-## 10. 📇 Spatial Indexes
+## 10. Spatial Indexes
 
 > Critical for performance — without a spatial index, every spatial query does a full table scan.
 
@@ -753,7 +757,7 @@ INSERT INTO user_sdo_geom_metadata VALUES (
 
 ---
 
-## 11. 🪟 Window & Aggregate Spatial Functions
+## 11. Window & Aggregate Spatial Functions
 
 > Aggregate geometries across groups or windows.
 
@@ -811,7 +815,7 @@ LIMIT 5;
 
 ---
 
-## 12. 📊 Cross-Engine Master Table
+## 12. Cross-Engine Master Table
 
 | Category | MySQL | SpatiaLite | PostGIS | SQL Server | Oracle Spatial |
 |----------|-------|------------|---------|------------|----------------|
@@ -832,7 +836,7 @@ LIMIT 5;
 
 ---
 
-## 13. 🛠️ Common Patterns & Examples {: #13--common-patterns--examples}
+## 13. Common Patterns & Examples
 
 ---
 
