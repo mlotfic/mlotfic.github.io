@@ -506,7 +506,7 @@ SELECT level, name FROM org_chart ORDER BY level;
 
 ---
 
-## 6. 📊 Grouping & Aggregation
+## 6. Grouping & Aggregation
 
 > Summarize and group data.
 
