@@ -10,7 +10,7 @@ description: >-
   A comprehensive guide to MySQL variables and parameters in stored procedures, covering SET, DECLARE, SELECT INTO, IN, OUT, and INOUT parameters with examples based on Lucky Shrub Gardening Center use cases.
 date: 2026-04-23 10:00:00 +0800
 author: Mahmoud Lotfi
-file_name: MySQL_Variables_Parameters_Study_Notes.md
+file_name: 2026-04-23-mysql-variables-parameters-study-notes.md
 categories: [SQL, MySQL, Stored Procedures]
 tags: [MySQL, Variables, Parameters, Stored Procedures, SQL]
 pin: False
