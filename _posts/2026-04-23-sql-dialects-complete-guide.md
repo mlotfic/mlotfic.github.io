@@ -12,7 +12,8 @@ description: >-
 date: 2026-04-23 10:00:00 +0800
 author: Mahmoud Lotfi
 file_name: 2026-04-23-sql-dialects-complete-guide.md
-categories: [SQL, Dialects, T-SQL, PL/SQL, PL/pgSQL, MySQL, SQLite, PostgreSQL, SQL Server, Oracle, MS Access, ANSI SQL, SQL Functions, SQL Syntax, SQL Features, SQL Comparison, SQL Learning, SQL Cheatsheet, SQL Reference, SQL Tutorial, SQL Guide, SQL Best Practices, SQL Common Mistakes, SQL Pros and Cons, SQL When It Matters, SQL How to Learn, SQL 80% Never Changes, SQL Dialects Complete Guide, SQL Dialects T-SQL, SQL Dialects PL/SQL, SQL Dialects PL/pgSQL, SQL Dialects MySQL, SQL Dialects SQLite, SQL Dialects PostgreSQL, SQL Dialects SQL Server, SQL Dialects Oracle, SQL Dialects MS Access, SQL Dialects ANSI SQL, SQL Dialects SQL Functions, SQL Dialects SQL Syntax, SQL Dialects SQL Features, SQL Dialects SQL Comparison, SQL Dialects SQL Learning, SQL Dialects SQL Cheatsheet, SQL Dialects SQL Reference, SQL Dialects SQL Tutorial, SQL Dialects SQL Guide, SQL Dialects SQL Best Practices, SQL Dialects SQL Common Mistakes, SQL Dialects SQL Pros and Cons, SQL Dialects SQL When It Matters, SQL Dialects SQL How to Learn, SQL Dialects SQL 80% Never Changes, SQL Dialects Complete Guide with Examples, SQL Dialects Complete Guide with Examples Based on Lucky Shrub Gardening Center Use Cases]
+categories: [SQL, Dialects]
+tags: [SQL, Dialects]
 pin: False
 math: true
 mermaid: true

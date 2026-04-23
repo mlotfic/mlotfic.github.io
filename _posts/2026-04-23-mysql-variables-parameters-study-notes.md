@@ -12,7 +12,7 @@ date: 2026-04-23 10:00:00 +0800
 author: Mahmoud Lotfi
 file_name: 2026-04-23-mysql-variables-parameters-study-notes.md
 categories: [SQL, MySQL, Stored Procedures]
-tags: [MySQL, Variables, Parameters, Stored Procedures, SQL]
+tags: [SQL, functions, Variables, MySQL, Parameters, Stored Procedures]
 pin: False
 math: true
 mermaid: true
