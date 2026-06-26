@@ -1,0 +1,3 @@
+|    ID | Designation         | Object classes     |   Description | Category    | Field type       | Unit group   | Index   | R/O   | API define           |
+|------:|:--------------------|:-------------------|--------------:|:------------|:-----------------|:-------------|:--------|:------|:---------------------|
+| 19103 | Graphical placement | Placement on layer |           nan | No category | Monolingual text | Not defined  | No      | Yes   | INSTANCE_GEDLOCATION |

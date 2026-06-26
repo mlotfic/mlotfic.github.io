@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+11091,Block property: Format,Page,Selects which properties are specified in the relevant block property. Indirect properties cannot be output via block properties. The common index represents associated block and format properties.,Formats,Monolingual text,Not defined,"Yes, 100",No,PAGE_BLOCK_FORMAT

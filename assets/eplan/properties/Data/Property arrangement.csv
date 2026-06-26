@@ -1,0 +1,7 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+35900,Identifying name,Property arrangement,Identifying name of the property arrangement.,Data,Monolingual text,Not defined,No,Yes,PROPERTYVIEW_IDENTNAME
+35901,Displayed name,Property arrangement,,Data,Multilingual text,Not defined,No,Yes,PROPERTYVIEW_DISPLAYNAME
+35902,Standard arrangement,Property arrangement,,Data,Boolean (True / False),Not defined,No,Yes,PROPERTYVIEW_DEFAULT
+35903,Usage count,Property arrangement,Specifies how often a user-defined property arrangement is used in the project.,Data,Integer,Not defined,No,Yes,PROPERTYVIEW_USAGE
+35904,Type,Property arrangement,Specifies the type of the property arrangement:,Data,Integer,Not defined,No,Yes,PROPERTYVIEW_TYPE
+35905,Assignment,Property arrangement,Function definition or symbol to which the property arrangement is assigned.,Data,Monolingual text,Not defined,No,Yes,PROPERTYVIEW_ASSIGNMENT

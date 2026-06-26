@@ -1,0 +1,5 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+16001,Connection point number,Symbol,"Internal connection point number. Either a consecutive number or a ""n"" (for a variable connection number) or a ""z"" (for the last connection point with a variable connection number).",No category,Monolingual text,Not defined,"Yes, 100",Yes,SYMB_CONNECTIONNUMBER
+16028,Symbol representation type,Symbol,"Shows the representation type of the symbol, e.g. ""Multi-line"" or ""Overview"".",No category,Monolingual text,Not defined,No,Yes,SYMB_SYBMOLFUNCTIONTYPE_NAME
+16031,Symbol variant assignment (internal),Symbol,This property is populated during the data transfer of projects from EPLAN 5. It is only required for EPLAN 5 due to compatibility reasons and is no longer used in new projects. The assignment of the variants for data transfer is stored here.,No category,Integer,Not defined,"Yes, 4",No,SYMB_IMPORTEDVARIANTMAPPING
+16050,Property arrangements,Symbol,Contains multi-language designations for user-defined sets of properties (max. 64).,No category,Multilingual text,Not defined,"Yes, 64",No,SYMB_PROPERTYINSTANCESET

@@ -1,0 +1,3 @@
+|    ID | Designation      | Object classes     | Description                                                                  | Category   | Field type       | Unit group   | Index   | R/O   | API define              |
+|------:|:-----------------|:-------------------|:-----------------------------------------------------------------------------|:-----------|:-----------------|:-------------|:--------|:------|:------------------------|
+| 19100 | Parametric rules | Placement on layer | Determines how size-adjusting symbols should behave when zooming in and out. | Settings   | Monolingual text | Not defined  | No      | No    | INSTANCE_PARAMETRICRULE |

@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+44056,Hook-up,Segment (pre-planning),"Displays the first assembly part from the ""Hook-up"" product group that is entered in the properties dialog of the planning object or of the segment template in the Part tab.",Part,Monolingual text,Not defined,No,Yes,DMPLAOBJECT_HOOKUP

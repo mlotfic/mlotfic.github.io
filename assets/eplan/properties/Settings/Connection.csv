@@ -1,0 +1,9 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+31005,Autoconnecting line: Color,Connection,,Settings,Integer,Not defined,No,No,CONNECTION_ACL_COLOR
+31015,Autoconnecting line: Line type,Connection,,Settings,Integer,Not defined,No,No,CONNECTION_ACL_STYLE
+31016,Autoconnecting line: Line thickness,Connection,,Settings,Coordinates (only X or Y),Not defined,No,No,CONNECTION_ACL_WIDTH
+31017,Autoconnecting line: Layer,Connection,,Settings,Integer,Not defined,No,No,CONNECTION_ACL_LAYER
+31018,Autoconnecting line: Pattern length,Connection,,Settings,Coordinates (only X or Y),Not defined,No,No,CONNECTION_ACL_FACTOR
+31057,Pressure line / control line,Connection,Shows whether the connection is a pressure or control line.,Settings,Integer,Not defined,No,No,CONNECTION_WORKING_CONTROL_LINE
+31142,Connection: Association,Connection,"This property specifies whether the connection is an individual connection or can be part of a cable, conduit, phase busbar, etc. Possible values are:",Settings,Integer,Not defined,No,No,CONNECTION_KINDOFWIRE
+31163,Saddle jumper slot,Connection,"This property can be used to manage up to five saddle jumper slots at saddle jumper connections. The ""Automatic"" setting is the default setting. In this case only two saddle jumper slots (for the internal and external sides of the terminal connection point) are managed and the saddle jumpers are generated depending on the ""internal / external"" setting of the respective terminal connection point. Alternatively you can assign a specific saddle jumper slot to the connection by using the setting ""Saddle jumper slot 1"" to ""Saddle jumper slot 5"".",Settings,Integer,Not defined,No,No,CONNECTION_SADDLEJUMPER_SLOT

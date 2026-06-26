@@ -1,0 +1,3 @@
+|    ID | Designation        | Object classes     | Description                                                                                   | Category   | Field type       | Unit group   | Index   | R/O   | API define         |
+|------:|:-------------------|:-------------------|:----------------------------------------------------------------------------------------------|:-----------|:-----------------|:-------------|:--------|:------|:-------------------|
+| 19800 | Affected functions | Path function text | Lists all the functions for a path function text that adopt this function text from the path. | Special    | Monolingual text | Not defined  | No      | Yes   | PATHTEXT_FUNCTIONS |

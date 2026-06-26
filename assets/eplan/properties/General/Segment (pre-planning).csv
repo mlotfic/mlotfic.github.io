@@ -1,0 +1,4 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+44001,Segment definition: Name (identifying),Segment (pre-planning),"Identifying name of the segment definition, e.g., ""Eplan.Base.Component.Common"".",General,Monolingual text,Not defined,No,Yes,DMPLAOBJECT_DEFINITIONNAME
+44039,Basic segment definition: Name (identifying),Segment (pre-planning),"Identifying name of the basic segment definition, e.g., ""Eplan.Base.StructureNode"".",General,Monolingual text,Not defined,No,Yes,DMPLAOBJECT_BASEDEFINITIONNAME
+44051,Segment template,Segment (pre-planning),Segment template of the planning object or structure segment.,General,Monolingual text,Not defined,No,No,DMPLAOBJECT_SPECIFICATIONNAME

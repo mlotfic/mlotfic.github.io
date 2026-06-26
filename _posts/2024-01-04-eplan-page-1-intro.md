@@ -1,0 +1,221 @@
+---
+layout: post
+cover_color: #000000
+
+title: "EPLAN Page Categories"
+
+description: >- 
+  **All page categories** — Automatic pages, Document type, Function designation, Interactive pages, Location designation
+
+date: 2024-03-10 10:00:00 +0800
+author: Mahmoud Lotfi
+file_name: 2024-03-10-eplan-page-categories-1.md
+categories: [EPLAN, Page, Categories]
+tags: [EPLAN, page, categories]
+pin: False
+math: true
+mermaid: true
+comments: true
+toc: true
+render_with_liquid: false
+
+image:
+  path: /assets/img/posts/eplan.jpg
+  alt: EPLAN Page Categories
+  lqip: data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+---
+
+# EPLAN Electric P8 Pages
+
+## what are eplan pages
+
+A page is the fundamental building block of an EPLAN project — it is the container where you draw your electrical schematics, layouts, and other documentation.
+
+## Each page have base properties that define its behavior and usage.
+
+- `Form name` example .f30, .f31, .f32
+- `Plot frame name` example .fn1
+- `Scale` example 1:1
+- `Grid` example 2.00 mm
+- `Suppl. field: Sheet no.` example 1
+- `Trade` example general, hydraulic, pneumatic, etc.
+- `Report: Source project` example EPLAN_Sample_Project_Education
+
+---
+
+## In EPLAN P8, every page in a project belongs to a **page category** `Trade`
+
+> based on application area, pages are grouped into categories that determine their behavior and usage.
+
+### For example
+
+- General
+- Electrical engineering
+- Mechanics
+- Process engineering
+- Fluid power, general
+- Hydraulics
+- Pneumatics
+- Cooling
+- Lubrication
+- Cooling lubricant
+- Gas engineering
+
+---
+
+## Eplan has two main types of pages
+
+> based on editability.
+
+| Page type               | Editability       |
+| ----------------------- | ----------------- |
+| **Interactive pages**   | Manually editable |
+| **Automatic pages**     | Auto-generated    |
+
+### Why this is important
+
+Understanding page categories and types is crucial because:
+
+- Whether the page is drawn manually or generated automatically
+- What kind of content is allowed on the page
+- How EPLAN processes and reports the page
+- Where it appears in the page navigator filter
+
+---
+
+### 1. Interactive Pages
+
+- Interactive pages are pages you **draw and edit manually** in the EPLAN schematic editor.
+- They are the **source of all engineering data** — every report, every list, every auto-generated page reads its data from what you place here.
+
+### Interactive Page Subtypes
+
+| Page Type                        | Description                                                          |
+| -------------------------------- | -------------------------------------------------------------------- |
+| External document                | Reference or link to external documentation or files                 |
+| Fluid power schematic            | Schematic diagram for hydraulic or pneumatic systems                 |
+| Function overview (fluid power)  | Overview of functions within fluid power systems                     |
+| Graphic                          | Page for graphical illustrations or visual elements                  |
+| Model view                       | 3D or model-based view of system components                          |
+| Overview                         | General overview page summarizing system or project                  |
+| P&I diagram                      | Process and instrumentation diagram for process systems              |
+| Panel layout                     | Layout drawing of electrical panels and components                   |
+| Pre-planning                     | Page for early-stage planning and design documentation               |
+| Schematic multi-line             | Detailed multi-line electrical schematic for complex circuits        |
+| Schematic single-line            | Simplified single-line schematic for power distribution              |
+| Topology                         | Topology diagram showing network or system connections               |
+
+
+#### Key Properties of Interactive Pages
+
+- You draw, place symbols, and connect wires manually
+- Every device placed here feeds into the project database
+- Properties are edited via the device/connection properties dialogs
+- Pages are identified by their **full designator**: `=GB1+ET1/3` following IEC 81346-2
+- Changes here drive all auto-generated reports
+
+#### How Interactive Pages Appear in Navigator
+
+```cs
+Page Navigator
+└── Interactive pages
+    └── =GB1 (Functional assignment)
+        └── +ET1 (Installation location)
+            ├── /1   Circuit diagram — Main power feed
+            ├── /2   Circuit diagram — Motor starter K1
+            ├── /3   Circuit diagram — Motor starter K2
+            └── /4   PLC I/O diagram — DI card 1
+```
+
+> we will talk about navigation structue dtails later
+
+---
+
+### 2. Automatic Pages
+
+- Automatic pages are **generated by EPLAN** using form templates (`.f??` files) "we will discued later".
+- They do not exist until you run `Utilities → Reports → Generate`.
+- They read all data from interactive pages and render it through a form layout.
+
+> You never draw on automatic pages. Any manual change is lost when reports are regenerated.
+
+#### Automatic Pages pre-defined List
+
+> you can edit or modify this forms later
+
+| Page Type                                | Form            |
+| ---------------------------------------- |-----------------|
+| Assembly/Module Overview                 | `.f44`          |
+| Cable assignment diagram                 | `.f08`          |
+| Cable diagram                            | `.f09`          |
+| Cable overview                           | `.f10`          |
+| Cable-connection diagram                 | `.f07`          |
+| Conduit / line plan                      | `.f46`          |
+| Connection List                          | `.f27`          |
+| Cut-out legend                           | `.f47`          |
+| Device tag list                          | `.f03`          |
+| Device-connection diagram                | `.f05`          |
+| Distributed device list                  | `.f45`          |
+| Enclosure legend                         | `.f18`          |
+| Forms documentation                      | `.f04`          |
+| Manufacturer / supplier list             | `.f31`          |
+| Mounting list                            | `.f32`          |
+| P&I diagram: Piping overview             | `.f37`          |
+| Parts list                               | `.f01`          |
+| Pin-connection diagram                   | `.f21`          |
+| Placeholder object overview              | `.f30`          |
+| PLC address overview                     | `.f48`          |
+| PLC card overview                        | `.f20`          |
+| PLC diagram                              | `.f19`          |
+| Plot frame documentation                 | `.f15`          |
+| Plug diagram                             | `.f22`          |
+| Plug overview                            | `.f23`          |
+| Potential overview                       | `.f16`          |
+| Preplanning: Pipe class overview         | `.f49`          |
+| Pre-planning: Planning object overview   | `.f40`          |
+| Pre-planning: Planning object plan       | `.f41`          |
+| Pre-planning: Segment template overview  | `.f42`          |
+| Pre-planning: Segment template plan      | `.f43`          |
+| Pre-planning: Structure segment overview | `.f38`          |
+| Pre-planning: Structure segment plan     | `.f39`          |
+| Preplanning: Substance overview          | `.f51`          |
+| Project options overview                 | `.f29`          |
+| Revision overview                        | `.f17`          |
+| Structure identifier overview            | `.f24`          |
+| Summarized parts list                    | `.f02`          |
+| Symbol overview                          | `.f25`          |
+| Table of contents                        | `.f06`          |
+| Terminal diagram                         | `.f13`          |
+| Terminal line-up diagram                 | `.f12`          |
+| Terminal-connection diagram              | `.f11`          |
+| Terminal-strip overview                  | `.f14`          |
+| Topology: Routed cables / connections    | `.f36`          |
+| Topology: Routing path diagram           | `.f35`          |
+| Topology: Routing path list              | `.f34`          |
+
+
+#### How Automatic Pages Appear in Navigator
+
+```cs
+Page Navigator
+└── Automatic pages
+    ├── Table of contents        /TOC
+    ├── Terminal diagram         +ET1/T1
+    ├── Terminal-strip overview  +ET1/TO1
+    ├── Cable diagram            /C1
+    ├── Parts list               /PL
+    └── Connection list          /CL
+```
+
+#### The Golden Rule
+
+```cs
+❌ NEVER edit an automatic page directly
+✅ ALWAYS edit the source interactive page, then regenerate
+```
+
+---
+
+#### ➲ **Next post:** [Eplan Automatic Pages Elements List](https://mlotfic.github.io/posts/page-2-automatic-pages-elements-list)
+
+> ⛓️‍💥 Mahmoud Lotfi

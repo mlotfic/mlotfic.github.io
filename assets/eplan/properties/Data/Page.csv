@@ -1,0 +1,18 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+11000,Page name,Page,"Consists of the page number, i.e. the page counter and subcounter.",Data,Monolingual text,Not defined,No,No,PAGE_NAME
+11009,Page name (full),Page,Full page name; contains page names and the identifying and describing identifier blocks.,Data,Monolingual text,Not defined,No,Yes,PAGE_FULLNAME
+11010,Page name (identifying),Page,"Identifying page name; contains page names and the identifying, but not describing identifier blocks.",Data,Monolingual text,Not defined,No,Yes,PAGE_IDENTNAME
+11011,Page description,Page,"Descriptive text for the page, is displayed in (e.g.) the tree view of the page navigator or in reports. Line breaks are permitted.",Data,Multilingual text,Not defined,No,No,PAGE_NOMINATIOMN
+11030,Drawing number,Page,,Data,Multilingual text,Not defined,No,No,PAGE_DRAWINGID
+11031,Suppl. field: Page,Page,,Data,Multilingual text,Not defined,No,No,PAGE_ADDITIONALPAGE
+11032,Suppl. field: Group,Page,,Data,Multilingual text,Not defined,No,No,PAGE_ADDITIONALGROUP
+11033,Suppl. field: Sheet no.,Page,"The sheet number is used in addition to the page name and can consist of any combination of numbers and letters. It must be unique within an identifier block (same function designation / location designation). A start number must be entered, e.g. M1 or LM010, so that the property can be automatically assigned in reports.",Data,Monolingual text,Not defined,No,No,PAGE_ADDITIONALSHEETNUMBER
+11036,Object identifier,Page,"The object identifier is used for the identification of pages in accordance with DIN EN 61355-1. In doing so, the object identifier assigns a document (i.e. a project page) to a certain object (e.g. a function, a location, or a product).",Data,Monolingual text,Not defined,No,Yes,PAGE_OBJECTCODE
+11037,Trade,Page,"Determines the technology to be applied or selected. Depending on the page type, miscellaneous trades are available for a project page:",Data,Integer,Not defined,No,No,PAGE_CRAFT
+11042,Page number,Page,Part of the page name. The page number consists of the page counter and the page's subcounter. Identifier blocks like function designation or location designation are not displayed.,Data,Monolingual text,Not defined,No,Yes,PAGE_NUMBER
+11059,Special remarks of creator,Page,,Data,Multilingual text,Not defined,No,No,PAGE_ANNOTATION
+11066,Source,Page,"Specifies the source used for generating the page. Symbol libraries, symbols, and symbol variants are entered from the symbol editor. The full file name is entered from the form editor and plot frame editor.",Data,Monolingual text,Not defined,No,No,PAGE_SOURCE
+11067,Report: Source project,Page,Specifies the project from which the data for the report is taken.,Data,Monolingual text,Not defined,No,No,PAGE_SOURCE_PROJECT
+11090,Block property,Page,"Shows the properties that have been specified in the relevant format property ""Block property: Format [n]"". The joint index [n] represents the relevant block and format properties.",Data,Monolingual text,Not defined,"Yes, 100",Yes,PAGE_BLOCK_VALUE
+11901,Supplementary field,Page,"Max. 1,000 words in the supplementary fields for the page that can be specified using the index.",Data,Multilingual text,Not defined,"Yes, 1000",No,PAGE_SUPPLEMENTARYFIELD
+25020,Counter page number,Page,"This property automatically increments the pages in the project in accordance with the order in the page structure. You can insert this property as special text and use it for displaying a sequential page number, for example in the page properties, in the graphical editor or on report pages.",Data,Monolingual text,Not defined,No,Yes,PAGE_COUNTERPAGENUMBER

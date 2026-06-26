@@ -1,0 +1,12 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+1000,Structure identifier,Structure identifiers,"Structure identifier without sub-identifier and preceding sign, e.g. ""UA1"".",Data,Monolingual text,Not defined,No,Yes,LOCATION_NAME
+1001,Complete structure identifier,Structure identifiers,"Complete structure identifier (including sub-identifier) without preceding sign, e.g. ""A.UA1.UA2"".",Data,Monolingual text,Not defined,No,Yes,LOCATION_FULLNAME
+1002,Structure description,Structure identifiers,"Description for the structure identifier, displayed in structure identifier management.",Data,Multilingual text,Not defined,No,No,LOCATION_DESCRIPTION
+1003,Complete structure identifier with preceding sign,Structure identifiers,"Complete structure identifier (including sub-identifier) with preceding sign, e.g. ""=A.UA1.UA2"".",Data,Monolingual text,Not defined,No,Yes,LOCATION_FULLNAME_WITHPREFIX
+1004,Identifier block,Structure identifiers,"Provides the identifier block to which the structure identifier belongs, e.g. ""Function designation,"" ""Location designation"" etc. The property can be used in forms for the structure identifier overview.",Data,Monolingual text,Not defined,No,Yes,LOCATION_TYPENAME
+1007,Structure description 2,Structure identifiers,"Description for the structure identifier, displayed in structure identifier management.",Data,Multilingual text,Not defined,No,No,LOCATION_DESCRIPTION_2
+1008,Structure description 3,Structure identifiers,"Description for the structure identifier, displayed in structure identifier management.",Data,Multilingual text,Not defined,No,No,LOCATION_DESCRIPTION_3
+1009,Structure description Supplementary field,Structure identifiers,"Describing supplementary text for the structure identifier, displayed in structure identifier management.",Data,Multilingual text,Not defined,"Yes, 10",No,LOCATION_DESCRIPTION_SUPPLEMENTARYFIELD
+1010,Structure identifier: superior name component,Structure identifiers,Outputs the xth name component of a structure identifier using the index.,Data,Monolingual text,Not defined,"Yes, 10",Yes,LOCATION_NAMEPART
+1011,Structure identifier superior,Structure identifiers,,Data,Monolingual text,Not defined,"Yes, 10",Yes,LOCATION_UPPERLOCATION
+1012,Structure identifier superior: Description,Structure identifiers,,Data,Multilingual text,Not defined,"Yes, 10",Yes,LOCATION_UPPERLOCATION_DESCRIPTION

@@ -1,0 +1,32 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+22900,Short name,Part (referenced),Short designation of manufacturers/suppliers or customers.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_SHORTNAME
+22908,Full name,Part (referenced),Full name of manufacturers/suppliers or customers.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_LONGNAME
+22909,Title,Part (referenced),Title of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_TITLE
+22910,Name 1,Part (referenced),Name of manufacturer/supplier or customer; can be output when printing addresses.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_NAME1
+22911,Name 2,Part (referenced),Name of manufacturer/supplier or customer; can be output when printing addresses.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_NAME2
+22912,Name 3,Part (referenced),Name of manufacturer/supplier or customer; can be output when printing addresses.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_NAME3
+22913,Street,Part (referenced),Street of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_STREET
+22914,Zip code (City),Part (referenced),Zip code of city of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_ZIPTOWN
+22915,City,Part (referenced),City of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_TOWN
+22916,Zip code (P.O. box),Part (referenced),Zip code of P.O. box of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_ZIPPOBOX
+22917,P.O. box,Part (referenced),PO box of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_POBOX
+22918,Country,Part (referenced),Country of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_STATE
+22919,Phone,Part (referenced),Phone number of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_PHONE
+22920,E-mail,Part (referenced),E-mail address of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_EMAIL
+22921,Customer number,Part (referenced),Number managed under personal details.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_NUMBER
+22922,Description (address),Part (referenced),"Descriptive text for a customer, manufacturer or supplier in the parts management. This property is used for entering internal information or remarks, e.g. ""responsible for sales, part....., good credit, etc."" and so on.",Data,Multilingual text,Not defined,No,No,PART_ADDRESS_NOTE
+22923,Fax,Part (referenced),Fax number of manufacturer/supplier or customer.,Data,Monolingual text,Not defined,No,No,PART_ADDRESS_FAX
+22930,Description (Drilling pattern),Part (referenced),Description of the drilling pattern.,Data,Multilingual text,Not defined,No,No,PART_CONSTRUCTION_DESCRIPTION
+22931,Name,Part (referenced),Name of the drilling pattern.,Data,Monolingual text,Not defined,No,No,PART_CONSTRUCTION_NAME
+22941,Connection point pattern,Part (referenced),The connection point pattern stored at the part.,Data,Monolingual text,Not defined,No,No,ARTICLE_REF_TERMINAL_NAME
+22942,Additional length (default),Part (referenced),This property is used if no additional length has been entered for the individual connection point in the connection point pattern. Specifies the default value for the additional length of the connection point arrangement.,Data,Decimal number,Not defined,No,No,PART_TERMINAL_ADDITIONALLENGTHDEFAULT
+22945,Name (connection point pattern),Part (referenced),Name of the connection point pattern.,Data,Monolingual text,Not defined,No,No,PART_TERMINAL_NAME
+22946,Description (Connection point pattern),Part (referenced),Description of the connection point pattern.,Data,Multilingual text,Not defined,No,No,PART_TERMINAL_DESCRIPTION
+22947,"Wire termination processing (Eplan Cabinet, default)",Part (referenced),"This property is only required for reasons of compatibility with Eplan Cabinet. It is used if no wire termination processing has been entered for the individual connection point in the connection point pattern. Shows how the end of the connection is handled, for example with stripping or crimping. Is entered in parts management for connection points and specifies the default value for a group of connection points.",Data,Integer,Not defined,No,No,PART_TERMINAL_TYPEDEFAULT
+22948,Routing direction (default),Part (referenced),This property is used if no routing direction has been entered for the individual connection point in the connection point pattern. The property is entered in parts management for connection point patterns and specifies the default value of the routing direction for a group of connection points.,Data,Integer,Not defined,No,No,PART_TERMINAL_DIRECTION
+22959,Description (Accessory list),Part (referenced),Description of the accessory list in parts management.,Data,Multilingual text,Not defined,No,No,PART_ACCESSORYLIST_DESCRIPTION
+22960,Name (accessory list),Part (referenced),"Name of the accessory list (hierarchy level ""Accessory list"" in parts management).",Data,Monolingual text,Not defined,No,No,PART_ACCESSORYLIST_NAME
+22968,Connection category (default),Part (referenced),This property is used if no connection category has been entered for the individual connection point in the connection point pattern. Specifies the connection point type of a connection more exactly:,Data,Integer,Not defined,No,No,PART_TERMINAL_TYPEOFTERMINAL_DEFAULT
+22969,Connection dimension (default),Part (referenced),"This property is used if no connection dimension has been entered for the individual connection point in the connection point pattern. A connection dimension can be specified in this property for bolt connections, flat plug-in connectors, band connections, rail connections, internal threads and external threads.",Data,Value with unit,Not defined,No,No,PART_TERMINAL_TERMINALSIZE_DEFAULT
+22970,Name (accessory placement),Part (referenced),"Name of the part of the ""Accessory placement"" hierarchy level in parts management.",Data,Monolingual text,Not defined,No,No,PART_ACCESSORYPLACEMENT_NAME
+22974,Description (accessory placement),Part (referenced),Description of the accessory placement in parts management.,Data,Multilingual text,Not defined,No,No,PART_ACCESSORYPLACEMENT_DESCRIPTION

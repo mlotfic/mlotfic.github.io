@@ -1,0 +1,3 @@
+|    ID | Designation   | Object classes   | Description                                                                                     | Category   | Field type       | Unit group   | Index   | R/O   | API define   |
+|------:|:--------------|:-----------------|:------------------------------------------------------------------------------------------------|:-----------|:-----------------|:-------------|:--------|:------|:-------------|
+| 13000 | Form type     | Form             | Defines the form type, i.e., whether it is a form for a device tag list, terminal diagram, etc. | Data       | Monolingual text | Not defined  | No      | Yes   | FORM_TYPE    |

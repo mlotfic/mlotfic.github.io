@@ -1,0 +1,18 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+23200,Part number,Device list entry,Part number in the bill of materials.,Data,Monolingual text,Not defined,No,No,DEVICELISTENTRY_PARTNR
+23201,Number allowed,Device list entry,Shows the number of units of the current part that can be used in the project.,Data,Integer,Not defined,No,No,DEVICELISTENTRY_COUNTALLOWED
+23202,Device description,Device list entry,,Data,Monolingual text,Not defined,No,No,DEVICELISTENTRY_DESCRIPTION
+23203,Type number,Device list entry,Shows the type number of the relevant part in a device list.,Data,Monolingual text,Not defined,No,Yes,DEVICELISTENTRY_TYPENR
+23204,Total number allowed,Device list entry,Sums the permitted quantities of all parts with the same part number.,Data,Integer,Not defined,No,Yes,DEVICELISTENTRY_COUNTALLOWEDALL
+23205,Used unit quantity,Device list entry,Indicates how often a part was actually used in the project. (The part references are counted for this.),Data,Integer,Not defined,No,Yes,DEVICELISTENTRY_COUNTUSED
+23206,Spare quantity,Device list entry,Contains the difference between the property Total number allowed and the property Used unit quantity. This property can be displayed in the device list.,Data,Integer,Not defined,No,Yes,DEVICELISTENTRY_RESERVE
+23207,Order number,Device list entry,Shows the order number of the relevant part in a device list.,Data,Monolingual text,Not defined,No,Yes,DEVICELISTENTRY_ORDERNR
+23208,System part,Device list entry,,Data,Monolingual text,Not defined,No,No,DEVICELISTENTRY_PLANT
+23209,Variant,Device list entry,Shows the part variant of the relevant part in a device list.,Data,Monolingual text,Not defined,No,No,DEVICELISTENTRY_VARIANT
+23210,Part: Designation 1,Device list entry,"Shows the ""Designation 1"" of the relevant part in a device list.",Data,Multilingual text,Not defined,No,Yes,DEVICELISTENTRY_DESIGNATION1
+23211,Part: Designation 2,Device list entry,"Shows the ""Designation 2"" of the relevant part in a device list.",Data,Multilingual text,Not defined,No,Yes,DEVICELISTENTRY_DESIGNATION2
+23212,Part: Designation 3,Device list entry,"Shows the ""Designation 3"" of the relevant part in a device list.",Data,Multilingual text,Not defined,No,Yes,DEVICELISTENTRY_DESIGNATION3
+23213,Manufacturer,Device list entry,Shows the manufacturer of the relevant part in a device list.,Data,Monolingual text,Not defined,No,Yes,DEVICELISTENTRY_MANUFACTURER
+23214,Macro,Device list entry,"Shows the macro, which is specified for the relevant part, in a device list.",Data,Monolingual text,Not defined,No,Yes,DEVICELISTENTRY_MACRO
+23215,Discontinued part,Device list entry,"Shows the ""Discontinued part"" property of the relevant part in a device list.",Data,Boolean (True / False),Not defined,No,Yes,DEVICELISTENTRY_DISCONTINUED
+23216,ERP / PDM number,Device list entry,ERP / PDM number in the bill of materials.,Data,Monolingual text,Not defined,No,Yes,DEVICELISTENTRY_ERPNR

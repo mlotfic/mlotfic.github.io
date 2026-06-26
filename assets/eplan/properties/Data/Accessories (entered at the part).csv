@@ -1,0 +1,6 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+19756,Required,Accessories (entered at the part),Specifies whether the part is an absolutely required accessory part.,Data,Boolean (True / False),Not defined,No,No,ARTICLEACCESSORYPOSITION_NESSECCARY
+21009,Part number / name,Accessories (entered at the part),Part number of an accessory part.,Data,Monolingual text,Not defined,No,No,ARTICLEACCESSORYPOSITION_PARTNR
+21010,Variant,Accessories (entered at the part),Part variant of an accessory part.,Data,Monolingual text,Not defined,No,No,ARTICLEACCESSORYPOSITION_VARIANT
+21011,Record type,Accessories (entered at the part),"Specifies the type of parts data or cross-part data, such as component, assembly, cable, housing, accessory list, drilling pattern, customer.",Data,Integer,Not defined,No,No,ARTICLEACCESSORYPOSITION_PARTTYPE
+21012,Accessory placement,Accessories (entered at the part),"Using this property, you can assign an accessory placement to an accessory part. The accessory placement must previously be defined in parts management (""Accessory placement"" hierarchy level).",Data,Monolingual text,Not defined,No,No,ARTICLEACCESSORYPOSITION_ACCESSORYPLACEMENT

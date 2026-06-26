@@ -1,0 +1,75 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+1100,Function designation (main identifier),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_PLANT
+1101,Function designation (sub-identifier 1),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLANT1
+1102,Function designation (sub-identifier 2),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLANT2
+1103,Function designation (sub-identifier 3),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLANT3
+1104,Function designation (sub-identifier 4),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLANT4
+1105,Function designation (sub-identifier 5),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLANT5
+1106,Function designation (sub-identifier 6),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLANT6
+1107,Function designation (sub-identifier 7),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLANT7
+1108,Function designation (sub-identifier 8),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLANT8
+1109,Function designation (sub-identifier 9),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLANT9
+1120,Function designation,Page,"Provides the full function designation name, e.g. ""A.UA1.UA2"".",Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLPLANT
+1121,"Function designation (sub-identifier, complete)",Page,"For a function designation provides all the sub-identifiers, for example ""UA1.UA2"" at a complete function designation ""A.UA1.UA2"".",Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLSUBPLANT
+1200,Location designation (main identifier),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_LOCATION
+1201,Location designation (sub-identifier 1),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBLOCATION1
+1202,Location designation (sub-identifier 2),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBLOCATION2
+1203,Location designation (sub-identifier 3),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBLOCATION3
+1204,Location designation (sub-identifier 4),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBLOCATION4
+1205,Location designation (sub-identifier 5),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBLOCATION5
+1206,Location designation (sub-identifier 6),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBLOCATION6
+1207,Location designation (sub-identifier 7),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBLOCATION7
+1208,Location designation (sub-identifier 8),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBLOCATION8
+1209,Location designation (sub-identifier 9),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBLOCATION9
+1220,Location designation,Page,"Provides the full location designation name, e.g. ""O.UO1.UO2"".",Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLLOCATION
+1221,"Location designation (sub-identifier, complete)",Page,"Provides all the sub-identifiers for a location designation, e.g. ""UO1.UO2"" at a complete location designation ""O.UO1.UO2"".",Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLSUBLOCATION
+1300,Functional assignment (main identifier),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FUNCTIONALASSIGNMENT
+1301,Functional assignment (sub-identifier 1),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBFUNCTIONALASSIGNMENT1
+1302,Functional assignment (sub-identifier 2),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBFUNCTIONALASSIGNMENT2
+1303,Functional assignment (sub-identifier 3),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBFUNCTIONALASSIGNMENT3
+1304,Functional assignment (sub-identifier 4),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBFUNCTIONALASSIGNMENT4
+1305,Functional assignment (sub-identifier 5),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBFUNCTIONALASSIGNMENT5
+1306,Functional assignment (sub-identifier 6),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBFUNCTIONALASSIGNMENT6
+1307,Functional assignment (sub-identifier 7),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBFUNCTIONALASSIGNMENT7
+1308,Functional assignment (sub-identifier 8),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBFUNCTIONALASSIGNMENT8
+1309,Functional assignment (sub-identifier 9),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBFUNCTIONALASSIGNMENT9
+1320,Functional assignment,Page,Provides the full functional assignment.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLFUNCTIONALASSIGNMENT
+1321,"Functional assignment (sub-identifier, complete)",Page,Provides the full name of the functional assignment with all the sub-identifiers.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLSUBFUNCTIONALASSIGNMENT
+1400,Installation site (main identifier),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_PLACEOFINSTALLATION
+1401,Installation site (sub-identifier 1),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLACEOFINSTALLATION1
+1402,Installation site (sub-identifier 2),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLACEOFINSTALLATION2
+1403,Installation site (sub-identifier 3),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLACEOFINSTALLATION3
+1404,Installation site (sub-identifier 4),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLACEOFINSTALLATION4
+1405,Installation site (sub-identifier 5),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLACEOFINSTALLATION5
+1406,Installation site (sub-identifier 6),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLACEOFINSTALLATION6
+1407,Installation site (sub-identifier 7),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLACEOFINSTALLATION7
+1408,Installation site (sub-identifier 8),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLACEOFINSTALLATION8
+1409,Installation site (sub-identifier 9),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPLACEOFINSTALLATION9
+1420,Installation site,Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLPLACEOFINSTALLATION
+1500,Document type (main identifier),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_DOCTYPE
+1520,Document type,Page,Part of the structure identifier of the document type that is entered at this structure segment or planning object. The entire structure identifier of a planning object consists of all parts of the superior structure segments and planning objects.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLDOCTYPE
+1521,"Document type (sub-identifier, complete)",Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLSUBDOCTYPE
+1530,Document type (main identifier): Description,Page,Description of the document type.,Devices,Multilingual text,Not defined,No,Yes,DESIGNATION_DOCTYPE_DESCR
+1540,Document type with preceding sign,Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLDOCTYPE_WITHPREFIX
+1550,Document type: Description,Page,,Devices,Multilingual text,Not defined,No,Yes,DESIGNATION_FULLDOCTYPE_DESCR
+1601,User-defined structure (sub-identifier 1),Page,Provides the sublevel 1 of the user-defined structure.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_USERDEFINED_SUB1
+1602,User-defined structure (sub-identifier 2),Page,Provides the sublevel 2 of the user-defined structure.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_USERDEFINED_SUB2
+1603,User-defined structure (sub-identifier 3),Page,Provides the sublevel 3 of the user-defined structure.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_USERDEFINED_SUB3
+1604,User-defined structure (sub-identifier 4),Page,Provides the sublevel 4 of the user-defined structure.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_USERDEFINED_SUB4
+1605,User-defined structure (sub-identifier 5),Page,Provides the sublevel 5 of the user-defined structure.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_USERDEFINED_SUB5
+1606,User-defined structure (sub-identifier 6),Page,Provides the sublevel 6 of the user-defined structure.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_USERDEFINED_SUB6
+1607,User-defined structure (sub-identifier 7),Page,Provides the sublevel 7 of the user-defined structure.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_USERDEFINED_SUB7
+1608,User-defined structure (sub-identifier 8),Page,Provides the sublevel 8 of the user-defined structure.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_USERDEFINED_SUB8
+1609,User-defined structure (sub-identifier 9),Page,Provides the sublevel 9 of the user-defined structure.,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_USERDEFINED_SUB9
+1800,Product (main identifier),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_PRODUCT
+1801,Product (sub-identifier 1),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPRODUCT1
+1802,Product (sub-identifier 2),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPRODUCT2
+1803,Product (sub-identifier 3),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPRODUCT3
+1804,Product (sub-identifier 4),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPRODUCT4
+1805,Product (sub-identifier 5),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPRODUCT5
+1806,Product (sub-identifier 6),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPRODUCT6
+1807,Product (sub-identifier 7),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPRODUCT7
+1808,Product (sub-identifier 8),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPRODUCT8
+1809,Product (sub-identifier 9),Page,,Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_SUBPRODUCT9
+1820,Product,Page,"Provides the full product aspect, e.g. ""U-UA1-UA2"".",Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLPRODUCT
+1821,"Product (sub-identifier, complete)",Page,"Provides the full name of the product aspect with all the sub-identifiers, e.g. ""UA-UA2"".",Devices,Monolingual text,Not defined,No,Yes,DESIGNATION_FULLSUBPRODUCT

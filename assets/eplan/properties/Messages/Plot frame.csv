@@ -1,0 +1,5 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+12099,Number of messages,Plot frame,Shows the total number of all messages during the data transfer of plot frames.,Messages,Integer,Not defined,No,No,FRAME_ERRORCOUNT
+12100,Error: Graphic,Plot frame,"Indicates whether a problem occurred with any graphics during the data transfer of plot frames. Max. of 1,024 are recorded.",Messages,Monolingual text,Not defined,"Yes, 1024",No,FRAME_GRAPHICERROR
+12101,Error: Property placement,Plot frame,"Indicates whether a problem occurred with any placed properties during the data transfer of plot frames. Max. of 1,024 are recorded.",Messages,Monolingual text,Not defined,"Yes, 1024",No,FRAME_PLACEDPROPERROR
+12200,Error (import),Plot frame,"Indicates whether a problem occurred during the data transfer of plot frames. Max. of 1,024 are recorded.",Messages,Monolingual text,Not defined,"Yes, 1024",No,FRAME_IMPORTERROR

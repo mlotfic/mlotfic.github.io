@@ -1,0 +1,4 @@
+|    ID | Designation                    | Object classes           | Description                       | Category   | Field type       | Unit group   | Index   | R/O   | API define                  |
+|------:|:-------------------------------|:-------------------------|:----------------------------------|:-----------|:-----------------|:-------------|:--------|:------|:----------------------------|
+| 33100 | Outline definition point: Name | Outline definition point | Name of outline definition point. | Data       | Monolingual text | Not defined  | No      | Yes   | CONTOURDEFINITIONPOINT_NAME |
+| 33101 | Outline definition point: Type | Outline definition point | Type of outline definition point. | Data       | Monolingual text | Not defined  | No      | Yes   | CONTOURDEFINITIONPOINT_TYPE |

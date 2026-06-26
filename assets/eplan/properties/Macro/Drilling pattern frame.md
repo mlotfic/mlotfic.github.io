@@ -1,0 +1,3 @@
+|    ID | Designation                   | Object classes         | Description                                | Category   | Field type        | Unit group   | Index   | R/O   | API define                               |
+|------:|:------------------------------|:-----------------------|:-------------------------------------------|:-----------|:------------------|:-------------|:--------|:------|:-----------------------------------------|
+| 23501 | Drilling pattern: Description | Drilling pattern frame | Description text for the drilling pattern. | Macro      | Multilingual text | Not defined  | No      | No    | DRILLPATTERNBOX_DRILLPATTERN_DESCRIPTION |

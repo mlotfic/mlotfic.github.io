@@ -60,7 +60,7 @@ Navigate to `http://localhost:4000`
 ## Build for Production
 
 ```shell
-bundle exec jekyll build
+bundle exec jekyll build --watch
 ```
 
 ## Additional Commands

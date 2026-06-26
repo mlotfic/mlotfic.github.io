@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+20102,Number of units / quantity,Project,Shows the (max. 50) number of units of the part number assigned to a function.,Part,Integer,Not defined,"Yes, 50",No,FUNC_ARTICLE_COUNT

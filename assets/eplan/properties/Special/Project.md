@@ -1,0 +1,3 @@
+|    ID | Designation   | Object classes   | Description                                                           | Category   | Field type       | Unit group   | Index   | R/O   | API define               |
+|------:|:--------------|:-----------------|:----------------------------------------------------------------------|:-----------|:-----------------|:-------------|:--------|:------|:-------------------------|
+| 25100 | Subproject of | Project          | Specifies at a subproject from which original project it was created. | Special    | Monolingual text | Not defined  | No      | No    | PROJECT_SUBPROJECTORIGIN |

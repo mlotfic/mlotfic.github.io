@@ -1,0 +1,3 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+19008,User-defined property arrangement: Name,Reference (base object),Internal property for the user-defined property arrangement specified on the component.,No category,Monolingual text,Not defined,No,No,INSTANCE_USER_DEFINED_PROPERTYSET
+19021,Representation type / report type,Reference (base object),"The representation type is displayed for component and part placements, e.g. ""Multi-line"". The report type is displayed here for reports, e.g. ""Enclosure legend"".",No category,Monolingual text,Not defined,No,Yes,INSTANCE_TYPE

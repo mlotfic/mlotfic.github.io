@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+20091,Name automatically assigned,Cables (in reports),"Unnamed cable definitions, shields, and connection definition points are assigned to this property during automatic cable generation. Automatically assigned names are deleted and newly assigned in the next automatic run; manually assigned names are retained.",Settings,Boolean (True / False),Not defined,No,No,FUNC_CABLEAUTONAMED

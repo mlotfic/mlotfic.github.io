@@ -28,6 +28,8 @@ image:
 ---
 
 # 📘 SQL Statements Cheatsheet
+
+> **Topic:** SQL Statements Cheatsheet — Comprehensive Reference for All Database Operations
 > Grouped by category · Full syntax examples · Cross-engine compatibility
 
 ---

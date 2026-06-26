@@ -1,0 +1,5 @@
+|    ID | Designation                  | Object classes   |   Description | Category   | Field type                | Unit group   | Index   | R/O   | API define        |
+|------:|:-----------------------------|:-----------------|--------------:|:-----------|:--------------------------|:-------------|:--------|:------|:------------------|
+| 19340 | X coordinate starting point  | Rectangle        |           nan | Data       | Coordinates (only X or Y) | Not defined  | No      | No    | RECTANGLE_START_X |
+| 19341 | Y coordinate starting point  | Rectangle        |           nan | Data       | Coordinates (only X or Y) | Not defined  | No      | No    | RECTANGLE_START_Y |
+| 19342 | Rotation angle for rectangle | Rectangle        |           nan | Data       | Decimal number            | Not defined  | No      | No    | RECTANGLE_ANGLE   |

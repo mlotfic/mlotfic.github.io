@@ -1,0 +1,3 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+20242,Topology: Automatically generated routing path,Routing path (topology),Indicates whether the routing path was generated automatically.,Settings,Boolean (True / False),Not defined,No,No,CABLINGSEGMENT_AUTO_CREATED
+20247,Topology: Connection filter,Routing path (topology),"Filter for generating routing path networks. Is used during routing to control which connections may be routed through which routing track (routing paths and routing points). Connection filters are taken into account only if the ""Topology: Routing track specification"" (ID 31119) property has not been activated.",Settings,Monolingual text,Not defined,No,No,CABLINGSEGMENT_CONNECTIONFILTER

@@ -1,0 +1,3 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+23102,Project option section: Name,Project option section,Name of the section within a project option.,Data,Monolingual text,Not defined,No,Yes,OPTIONFRAGMENT_NAME
+23105,Project option section: Description,Project option section,The description can be multi-language and is shown in the status bar when the section is selected in the project options navigator tree.,Data,Multilingual text,Not defined,No,No,OPTIONFRAGMENT_DESCR

@@ -1,0 +1,21 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+22012,Height,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_HEIGHT
+22013,Width,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_WIDTH
+22014,Depth,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_DEPTH
+22022,Mounting surface,Part,,Mounting data,Integer,Not defined,No,No,ARTICLE_MOUNTINGSITE
+22045,Image file,Part,"Outputs the name of the image file which has been assigned to the part in parts management on the ""Properties"" tab > hierarchy level ""Mounting data"".",Mounting data,Monolingual text,Not defined,No,No,ARTICLE_PICTUREFILE
+22046,Weight,Part,Part weight in kg.,Mounting data,Decimal number,Not defined,No,No,ARTICLE_WEIGHT
+22047,Space requirement,Part,"Specify the space requirement of the part here. If values are entered for the properties Width and Height, the space requirement is determined automatically in accordance with the following formula: (w*h) with w = Width and h = Height.",Mounting data,Decimal number,Not defined,No,No,ARTICLE_MOUNTINGSPACE
+22059,Weight in displayed unit,Part,,Mounting data,Value with unit,Mass,No,Yes,ARTICLE_WEIGHT_DISPLAY_UNIT
+22152,Mounting clearance Width: Left,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_SPACING_LEFT
+22153,Mounting clearance Width: Right,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_SPACING_RIGHT
+22154,Mounting clearance Height: Above,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_SPACING_ABOVE
+22155,Mounting clearance Height: Below,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_SPACING_BELOW
+22156,Mounting clearance Depth: Front,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_SPACING_FRONT
+22157,Mounting clearance Depth: Rear,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_SPACING_REAR
+22211,Clip-on height,Part,"The clip-on height describes the position in the side view or from the top / bottom. When it is placed on a mounting rail, the item is automatically placed on the rail to the correct mounting depth. If the rail is replaced, the item will ""move"" to the top. The item is thus aligned above the top edge on the basis of the value entered here, rather than on the underside of the rail.",Mounting data,Decimal number,Not defined,No,No,ARTICLE_SNAPHEIGHT
+22215,Center mismatch,Part,"If you do not want the part to be centered in the front view, enter the offset relative to the middle of the mounting rail. The item will then be automatically offset by this value.",Mounting data,Decimal number,Not defined,No,No,ARTICLE_MIDDLEOFFSET
+22219,Texture,Part,Name of the image file that is mapped during part placement in the layout space on the front side of the placed 3D object. Using an image file as texture displays the surface of a 3D model in more detail and more realistically or illustrates the photo of an original item.,Mounting data,Monolingual text,Not defined,No,No,ARTICLE_ECABINET_MACRO
+22220,External placement,Part,Identifies the part as being externally placed and thus excludes it from panel layout reports.,Mounting data,Boolean (True / False),Not defined,No,No,ARTICLE_EXTERNAL_PLACEMENT
+22233,Weight (full),Part,Weight with information about the unit. The full value with all decimal places is always stored; the value is not rounded up. This ensures precision is retained when converting to a different unit.,Mounting data,Value with unit,Mass,No,Yes,ARTICLE_WEIGHT_FULL
+22268,Mounting depth,Part,,Mounting data,Decimal number,Not defined,No,No,ARTICLE_INSTALLATION_DEPTH

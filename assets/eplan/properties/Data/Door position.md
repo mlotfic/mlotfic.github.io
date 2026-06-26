@@ -1,0 +1,7 @@
+|    ID | Designation       | Object classes   | Description                                                         | Category   | Field type       | Unit group   | Index   | R/O   | API define                  |
+|------:|:------------------|:-----------------|:--------------------------------------------------------------------|:-----------|:-----------------|:-------------|:--------|:------|:----------------------------|
+| 19600 | X position        | Door position    | X position of the connection point in the connection point pattern. | Data       | Decimal number   | Not defined  | No      | No    | ARTICLEDOORPOSITION_XPOS    |
+| 19601 | Y position        | Door position    | Y position of the connection point in the connection point pattern. | Data       | Decimal number   | Not defined  | No      | No    | ARTICLEDOORPOSITION_YPOS    |
+| 19602 | Z position        | Door position    | Z position of the connection point in the connection point pattern. | Data       | Decimal number   | Not defined  | No      | No    | ARTICLEDOORPOSITION_ZPOS    |
+| 19603 | Door: Part number | Door position    | nan                                                                 | Data       | Monolingual text | Not defined  | No      | No    | ARTICLEDOORPOSITION_PARTNR  |
+| 19604 | Door: Variant     | Door position    | nan                                                                 | Data       | Monolingual text | Not defined  | No      | No    | ARTICLEDOORPOSITION_VARIANT |

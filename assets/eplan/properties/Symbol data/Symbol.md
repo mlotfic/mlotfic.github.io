@@ -1,0 +1,3 @@
+|    ID | Designation                                       | Object classes   |   Description | Category    | Field type       | Unit group   | Index   | R/O   | API define               |
+|------:|:--------------------------------------------------|:-----------------|--------------:|:------------|:-----------------|:-------------|:--------|:------|:-------------------------|
+| 16032 | Symbol for contact image of motor overload switch | Symbol           |           nan | Symbol data | Monolingual text | Not defined  | No      | No    | SYMB_MOTOR_CONTACT_IMAGE |

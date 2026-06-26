@@ -1,0 +1,16 @@
+|    ID | Designation                          | Object classes   |   Description | Category   | Field type        | Unit group   | Index     | R/O   | API define                              |
+|------:|:-------------------------------------|:-----------------|--------------:|:-----------|:------------------|:-------------|:----------|:------|:----------------------------------------|
+| 24901 | Database name                        | Parts database   |           nan | Data       | Monolingual text  | Not defined  | No        | Yes   | ARTICLELIBRARY_DATABASENAME             |
+| 24902 | Database name (complete)             | Parts database   |           nan | Data       | Monolingual text  | Not defined  | No        | Yes   | ARTICLELIBRARY_FULLDATABASENAME         |
+| 24903 | Database version                     | Parts database   |           nan | Data       | Monolingual text  | Not defined  | No        | Yes   | ARTICLELIBRARY_DATABASEVERSION          |
+| 24906 | Number of parts                      | Parts database   |           nan | Data       | Integer           | Not defined  | No        | Yes   | ARTICLELIBRARY_ARTICLE_COUNT            |
+| 24907 | Number of accessory lists            | Parts database   |           nan | Data       | Integer           | Not defined  | No        | Yes   | ARTICLELIBRARY_ACCESSORYLIST_COUNT      |
+| 24908 | Number of accessory placements       | Parts database   |           nan | Data       | Integer           | Not defined  | No        | Yes   | ARTICLELIBRARY_ACCESSORYPLACEMENT_COUNT |
+| 24909 | Number of drilling patterns          | Parts database   |           nan | Data       | Integer           | Not defined  | No        | Yes   | ARTICLELIBRARY_CONSTRUCTION_COUNT       |
+| 24910 | Number of connection points          | Parts database   |           nan | Data       | Integer           | Not defined  | No        | Yes   | ARTICLELIBRARY_TERMINAL_COUNT           |
+| 24911 | Number of customers                  | Parts database   |           nan | Data       | Integer           | Not defined  | No        | Yes   | ARTICLELIBRARY_CUSTOMER_COUNT           |
+| 24912 | Number of manufacturers / suppliers  | Parts database   |           nan | Data       | Integer           | Not defined  | No        | Yes   | ARTICLELIBRARY_MANUFACTURER_COUNT       |
+| 24913 | Number of part variants              | Parts database   |           nan | Data       | Integer           | Not defined  | No        | Yes   | ARTICLELIBRARY_ARTICLEVARIANT_COUNT     |
+| 24914 | Name of the configured tree node     | Parts database   |           nan | Data       | Multilingual text | Not defined  | Yes, 1000 | Yes   | ARTICLELIBRARY_TREENODE_NAME            |
+| 24915 | Type of the configured tree node     | Parts database   |           nan | Data       | Monolingual text  | Not defined  | Yes, 1000 | Yes   | ARTICLELIBRARY_TREENODE_TYPE            |
+| 24916 | Quantity in the configured tree node | Parts database   |           nan | Data       | Integer           | Not defined  | Yes, 1000 | Yes   | ARTICLELIBRARY_TREENODE_COUNT           |

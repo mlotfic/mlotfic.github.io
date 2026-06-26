@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+18061,Grid,Form (base object),"Logical grid spacing of the form, plot frame or outline.",Settings,Coordinates (only X or Y),Not defined,No,No,FORMBASE_LOGICGRID

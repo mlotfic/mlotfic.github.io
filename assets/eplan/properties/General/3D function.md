@@ -1,0 +1,3 @@
+|    ID | Designation                     | Object classes   |   Description | Category   | Field type       | Unit group   | Index   | R/O   | API define                                          |
+|------:|:--------------------------------|:-----------------|--------------:|:-----------|:-----------------|:-------------|:--------|:------|:----------------------------------------------------|
+| 36076 | Product configurator identifier | 3D function      |           nan | General    | Monolingual text | Not defined  | No      | Yes   | FUNCTION3D_ID_EXTERNALPRODUCTCONFIGURATOR_AUTOMATIC |

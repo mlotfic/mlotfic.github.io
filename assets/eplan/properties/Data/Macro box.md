@@ -1,0 +1,5 @@
+|    ID | Designation             | Object classes   | Description                                          | Category   | Field type       | Unit group   | Index   | R/O   | API define               |
+|------:|:------------------------|:-----------------|:-----------------------------------------------------|:-----------|:-----------------|:-------------|:--------|:------|:-------------------------|
+| 23009 | Macro: Name             | Macro box        | File name of the macro (without path specification). | Data       | Monolingual text | Not defined  | No      | No    | MACROBOX_NAME            |
+| 23015 | Macro: Directory        | Macro box        | nan                                                  | Data       | Monolingual text | Not defined  | No      | No    | MACROBOX_DIRECTORY       |
+| 23017 | Macro: Company standard | Macro box        | nan                                                  | Data       | Monolingual text | Not defined  | No      | No    | MACROBOX_COMPANYSTANDARD |

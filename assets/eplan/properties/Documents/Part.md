@@ -1,0 +1,6 @@
+|    ID | Designation                         | Object classes   |   Description | Category   | Field type        | Unit group   | Index   | R/O   | API define                            |
+|------:|:------------------------------------|:-----------------|--------------:|:-----------|:------------------|:-------------|:--------|:------|:--------------------------------------|
+| 22210 | External document                   | Part             |           nan | Documents  | Monolingual text  | Not defined  | Yes, 20 | No    | ARTICLE_EXTERNAL_DOCUMENT             |
+| 22279 | External document: Designation      | Part             |           nan | Documents  | Multilingual text | Not defined  | Yes, 20 | No    | ARTICLE_EXTERNAL_DOCUMENT_DESIGNATION |
+| 22280 | External document: File / hyperlink | Part             |           nan | Documents  | Monolingual text  | Not defined  | Yes, 20 | No    | ARTICLE_EXTERNAL_DOCUMENT_URL         |
+| 22369 | External documents                  | Part             |           nan | Documents  | Monolingual text  | Not defined  | No      | No    | ARTICLE_EXTERNAL_DOCUMENT_ALL         |

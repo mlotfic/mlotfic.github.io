@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+20343,Topology: Generated single-line,Routing connection (topology),This property stores whether a routing connection was generated from a single-line cable connection.,Data,Boolean (True / False),Not defined,No,Yes,CONNECTIONCABLING_SINGLELINE_CREATED

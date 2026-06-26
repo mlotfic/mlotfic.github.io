@@ -1,0 +1,7 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+19409,Airflow-specific reserved area: X coordinate starting point,Mechanical object,X coordinate for the starting point of the reserved area.,No category,Decimal number,Not defined,No,No,DMG_EXTERNALINSTANCE_VENTILATION_RESTRICTED_AREA_START_X
+19410,Airflow-specific reserved area: Y coordinate starting point,Mechanical object,Y coordinate for the starting point of the reserved area.,No category,Decimal number,Not defined,No,No,DMG_EXTERNALINSTANCE_VENTILATION_RESTRICTED_AREA_START_Y
+19411,Airflow-specific reserved area: Z coordinate starting point,Mechanical object,Z coordinate for the starting point of the reserved area.,No category,Decimal number,Not defined,No,No,DMG_EXTERNALINSTANCE_VENTILATION_RESTRICTED_AREA_START_Z
+19412,Airflow-specific reserved area: X coordinate end point,Mechanical object,X coordinate for the end point of the reserved area.,No category,Decimal number,Not defined,No,No,DMG_EXTERNALINSTANCE_VENTILATION_RESTRICTED_AREA_END_X
+19413,Airflow-specific reserved area: Y coordinate end point,Mechanical object,Y coordinate for the end point of the reserved area.,No category,Decimal number,Not defined,No,No,DMG_EXTERNALINSTANCE_VENTILATION_RESTRICTED_AREA_END_Y
+19414,Airflow-specific reserved area: Z coordinate end point,Mechanical object,Z coordinate for the end point of the reserved area.,No category,Decimal number,Not defined,No,No,DMG_EXTERNALINSTANCE_VENTILATION_RESTRICTED_AREA_END_Z

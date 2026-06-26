@@ -1,0 +1,14 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+35200,Plugs: Number of SH pins,Plugs (in reports),Number of SH pins in the plug. Shields will be connected to these pins.,Data,Integer,Not defined,No,No,PLUGSTRIP_COUNTOFSH
+35201,Plugs: Page name of plug diagram,Plugs (in reports),Name of the first page of the plug diagram for the reported plug. Can be used in reports / forms.,Data,Monolingual text,Not defined,No,No,PLUGSTRIP_DIAGRAMPAGE
+35202,Plugs: Page name of pin-connection diagram,Plugs (in reports),Name of the first page of the pin-connection diagram for the reported plug. Can be used in reports / forms.,Data,Monolingual text,Not defined,No,No,PLUGSTRIP_CONNECTIONDIAGRAMPAGE
+35203,Plugs: First pin,Plugs (in reports),Designation of the first pin in the plug.,Data,Monolingual text,Not defined,No,No,PLUGSTRIP_FIRSTCONTACT
+35204,Plugs: Last pin,Plugs (in reports),Designation of the last pin in the plug.,Data,Monolingual text,Not defined,No,No,PLUGSTRIP_LASTCONTACT
+35205,Plugs: Number of PE pins,Plugs (in reports),Number of PE / PEN pins in the plug.,Data,Integer,Not defined,No,No,PLUGSTRIP_COUNTOFPE
+35206,Plugs: Number of N pins,Plugs (in reports),Number of N pins in the plug.,Data,Integer,Not defined,No,No,PLUGSTRIP_COUNTOFN
+35207,Plugs: Number of pins and accessories for plug diagram,Plugs (in reports),,Data,Integer,Not defined,No,No,PLUGSTRIP_ITEMCOUNT
+35208,Plugs: Number of general pins,Plugs (in reports),"Total number of pins in the plug that are not N, PE, PEN or SH pins.",Data,Integer,Not defined,No,No,PLUGSTRIP_COUNTOFCOMMON
+35209,Plugs: Total number of pins,Plugs (in reports),Total number of pins in the plug.,Data,Integer,Not defined,No,No,PLUGSTRIP_COUNTOFINTERNALOBJECTS
+35210,Plugs: Number of male pins,Plugs (in reports),Number of male pins in plug.,Data,Integer,Not defined,No,No,PLUGSTRIP_COUNTOFPINS
+35211,Plugs: Number of female pins,Plugs (in reports),Number of female pins in plug.,Data,Integer,Not defined,No,No,PLUGSTRIP_COUNTOFSOCKETS
+35212,Plugs: Number of pins (male and female pin),Plugs (in reports),Number of pins consisting of a male-female combination in plug.,Data,Integer,Not defined,No,No,PLUGSTRIP_COUNTOFJOINED

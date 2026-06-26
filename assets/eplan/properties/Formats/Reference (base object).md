@@ -1,0 +1,4 @@
+|    ID | Designation   | Object classes          |   Description | Category   | Field type                | Unit group   | Index   | R/O   | API define      |
+|------:|:--------------|:------------------------|--------------:|:-----------|:--------------------------|:-------------|:--------|:------|:----------------|
+| 19002 | X coordinate  | Reference (base object) |           nan | Formats    | Coordinates (only X or Y) | Not defined  | No      | No    | INSTANCE_XCOORD |
+| 19003 | Y coordinate  | Reference (base object) |           nan | Formats    | Coordinates (only X or Y) | Not defined  | No      | No    | INSTANCE_YCOORD |

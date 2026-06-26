@@ -1,0 +1,5 @@
+|    ID | Designation                                 | Object classes   |   Description | Category   | Field type        | Unit group   | Index   | R/O   | API define                                    |
+|------:|:--------------------------------------------|:-----------------|--------------:|:-----------|:------------------|:-------------|:--------|:------|:----------------------------------------------|
+| 24917 | Configurable connection point end treatment | Parts database   |           nan | Settings   | Multilingual text | Not defined  | Yes, 64 | No    | ARTICLELIBRARY_WIRETERMINATIONPROCESSINGTYPES |
+| 24918 | Currency 1                                  | Parts database   |           nan | Settings   | Monolingual text  | Not defined  | No      | No    | ARTICLELIBRARY_CURRENCY_1                     |
+| 24919 | Currency 2                                  | Parts database   |           nan | Settings   | Monolingual text  | Not defined  | No      | No    | ARTICLELIBRARY_CURRENCY_2                     |

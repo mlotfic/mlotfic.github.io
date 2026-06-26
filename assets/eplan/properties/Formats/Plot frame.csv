@@ -1,0 +1,3 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+12033,Plot frame dimensions: X axis,Plot frame,Defines the X axis dimensions of the plot frame. Required for 100 % zoom.,Formats,Coordinates (only X or Y),Not defined,No,No,FRAME_AREA_X
+12034,Plot frame dimensions: Y axis,Plot frame,Defines the Y axis dimensions of the plot frame. Required for 100 % zoom.,Formats,Coordinates (only X or Y),Not defined,No,No,FRAME_AREA_Y

@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+36458,Copper bundle: Name,Copper bundle,"Designation of the copper bundle; this name is displayed, for example, in the layout space navigator.",Data,Monolingual text,Not defined,No,No,COPPERBUNDLE_DESIGNATION

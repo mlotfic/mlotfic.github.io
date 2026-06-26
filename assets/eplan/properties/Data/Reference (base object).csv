@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+19307,Property arrangement,Reference (base object),Displays the name of the property arrangement set at the function / part placement. The property arrangement can also be assigned via this property.,Data,Monolingual text,Not defined,No,No,INSTANCE_ACTIVE_PROPERTYSET

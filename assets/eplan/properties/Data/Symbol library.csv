@@ -1,0 +1,8 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+15000,Symbol library,Symbol library,"Name of the symbol library, determined from the database name.",Data,Monolingual text,Not defined,No,Yes,SYMBLIB_NAME
+15011,Symbol library description,Symbol library,,Data,Multilingual text,Not defined,No,No,SYMBLIB_DESC
+15015,Number of symbols,Symbol library,Number of symbols in a symbol library.,Data,Integer,Not defined,No,Yes,SYMBLIB_SYMBOLCOUNT
+15016,Number of locked symbols,Symbol library,Number of locked symbols in a symbol library.,Data,Integer,Not defined,No,Yes,SYMBLIB_LOCKEDSYMBOLCOUNT
+15017,Number of symbol variants,Symbol library,Number of symbol variants in a symbol library.,Data,Integer,Not defined,No,Yes,SYMBLIB_VARIANTCOUNT
+15031,Compressed symbol library,Symbol library,"This property is assigned to a symbol library if one or more symbol variants were deleted from the symbol library during compression. In a comparison with the complete symbol library, however, the compressed symbol library is still considered equal in the system master data.",Data,Boolean (True / False),Not defined,No,No,SYMBOLLIBRARY_REMOVED_VARIANT
+15901,Supplementary field,Symbol library,"Max. 1,000 supplementary fields for the symbol library that can be specified using the index.",Data,Multilingual text,Not defined,"Yes, 1000",No,SYMBLIB_SUPPLEMENTARYFIELD

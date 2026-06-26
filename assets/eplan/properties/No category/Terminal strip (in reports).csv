@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+35012,Terminal strips: Number of main terminals,Terminal strip (in reports),Number of main terminals on the terminal strip (regardless of type).,No category,Integer,Not defined,No,Yes,TERMINALSTRIP_COUNTOFTERMINALMAINS

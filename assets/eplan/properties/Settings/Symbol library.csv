@@ -1,0 +1,3 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+15013,Grid,Symbol library,Logical grid size of the symbol library.,Settings,Coordinates (only X or Y),Not defined,No,No,SYMBLIB_LOGICGRID
+15030,Plot frame to edit symbol,Symbol library,The plot frame which is used for editing the symbol.,Settings,Monolingual text,Not defined,No,No,SYMBLIB_FRAME

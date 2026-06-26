@@ -1,0 +1,3 @@
+|    ID | Designation                  | Object classes   |   Description | Category   | Field type       | Unit group   | Index   | R/O   | API define              |
+|------:|:-----------------------------|:-----------------|--------------:|:-----------|:-----------------|:-------------|:--------|:------|:------------------------|
+| 36700 | Protected group: Part number | Protected group  |           nan | Part       | Monolingual text | Not defined  | No      | Yes   | DMPROTECTEDGROUP_PARTNR |

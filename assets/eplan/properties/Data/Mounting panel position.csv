@@ -1,0 +1,8 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+19650,X position,Mounting panel position,,Data,Decimal number,Not defined,No,No,ARTICLEMOUNTINGPANELPOSITION_XPOS
+19651,Y position,Mounting panel position,,Data,Decimal number,Not defined,No,No,ARTICLEMOUNTINGPANELPOSITION_YPOS
+19652,Z position,Mounting panel position,,Data,Decimal number,Not defined,No,No,ARTICLEMOUNTINGPANELPOSITION_ZPOS
+19653,Mounting location,Mounting panel position,"Specifies the mounting location on the mounting panel, e.g. ""Rear"", ""Left"", ""Right"".",Data,Integer,Not defined,No,No,ARTICLEMOUNTINGPANELPOSITION_LOCATION
+19654,Angle,Mounting panel position,,Data,Decimal number,Not defined,No,No,ARTICLEMOUNTINGPANELPOSITION_ANGLE
+19655,Mounting panel: Part number,Mounting panel position,,Data,Monolingual text,Not defined,No,No,ARTICLEMOUNTINGPANELPOSITION_PARTNR
+19656,Mounting panel: Variant,Mounting panel position,,Data,Monolingual text,Not defined,No,No,ARTICLEMOUNTINGPANELPOSITION_VARIANT

@@ -1,0 +1,3 @@
+|    ID | Designation            | Object classes   |   Description | Category   | Field type       | Unit group   | Index   | R/O   | API define          |
+|------:|:-----------------------|:-----------------|--------------:|:-----------|:-----------------|:-------------|:--------|:------|:--------------------|
+| 19620 | Block property: Format | QR code          |           nan | Formats    | Monolingual text | Not defined  | No      | No    | QRCODE_BLOCK_FORMAT |

@@ -1,0 +1,3 @@
+|    ID | Designation     | Object classes         |   Description | Category   | Field type   | Unit group   | Index   | R/O   | API define    |
+|------:|:----------------|:-----------------------|--------------:|:-----------|:-------------|:-------------|:--------|:------|:--------------|
+| 23016 | Macro: Standard | Macro box (referenced) |           nan | Data       | Integer      | Not defined  | No      | No    | MACROBOX_NORM |

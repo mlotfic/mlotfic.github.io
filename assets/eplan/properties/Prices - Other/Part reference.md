@@ -1,0 +1,3 @@
+|    ID | Designation            | Object classes   |   Description | Category       | Field type     | Unit group   | Index   | R/O   | API define           |
+|------:|:-----------------------|:-----------------|--------------:|:---------------|:---------------|:-------------|:--------|:------|:---------------------|
+| 22108 | Sales price Currency 2 | Part reference   |           nan | Prices / Other | Decimal number | Not defined  | No      | No    | ARTICLE_SALESPRICE_2 |

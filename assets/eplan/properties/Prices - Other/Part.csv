@@ -1,0 +1,11 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+22042,Quantity unit,Part,,Prices / Other,Multilingual text,Not defined,No,No,ARTICLE_QUANTITYUNIT
+22043,Price unit,Part,,Prices / Other,Integer,Not defined,No,No,ARTICLE_PRICEUNIT
+22109,Purchase price/price unit Currency 1,Part,,Prices / Other,Decimal number,Not defined,No,No,ARTICLE_PURCHASEPRICE_1
+22110,Purchase price/price unit Currency 2,Part,,Prices / Other,Decimal number,Not defined,No,No,ARTICLE_PURCHASEPRICE_2
+22111,Purchase price/packaging Currency 1,Part,,Prices / Other,Decimal number,Not defined,No,No,ARTICLE_PACKAGINGPRICE_1
+22112,Purchase price/packaging Currency 2,Part,,Prices / Other,Decimal number,Not defined,No,No,ARTICLE_PACKAGINGPRICE_2
+22122,Quantity/packaging,Part,Number of quantity units that are contained in a packaging unit.,Prices / Other,Decimal number,Not defined,No,No,ARTICLE_PACKAGINGQUANTITY
+22208,Barcode number,Part,"Barcodes are used to give goods a unique identification. Different coding standards are used internationally, for example the GTIN (Global Trade Item Number). In addition, companies use company-specific or industrial standards.",Prices / Other,Monolingual text,Not defined,No,No,ARTICLE_IDENTCODE
+22209,Barcode type,Part,"Shows the type of coding for a barcode, e.g. 2D code, EAN/GTIN, ISBN etc. The contents of this property can be taken into account in manufacturing lists and when importing and exporting parts; it cannot be translated.",Prices / Other,Monolingual text,Not defined,No,No,ARTICLE_IDENTTYPE
+22221,Discount,Part,,Prices / Other,Decimal number,Not defined,No,No,ARTICLE_DISCOUNT

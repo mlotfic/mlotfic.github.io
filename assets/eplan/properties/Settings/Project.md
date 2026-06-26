@@ -1,0 +1,3 @@
+|    ID | Designation     | Object classes   | Description                                          | Category   | Field type   | Unit group   | Index   | R/O   | API define       |
+|------:|:----------------|:-----------------|:-----------------------------------------------------|:-----------|:-------------|:-------------|:--------|:------|:-----------------|
+| 10902 | Type of project | Project          | Indicates the type of project, e.g. "Macro project". | Settings   | Integer      | Not defined  | No      | Yes   | PROJ_NUMERICTYPE |

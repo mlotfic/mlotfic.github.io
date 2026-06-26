@@ -1,0 +1,14 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+23001,Macro: File name,Macro box,File name (including path specification) of the macro.,Macro,Monolingual text,Not defined,No,No,MACROBOX_MACRO
+23002,Macro: Version,Macro box,Version designation of the macro.,Macro,Monolingual text,Not defined,No,No,MACROBOX_MACRO_VERSION
+23003,Macro: Source / reference,Macro box,"Describing text in which you can, for example, specify where the schematic originates (e.g., ""Siemens catalog"").",Macro,Monolingual text,Not defined,No,No,MACROBOX_MACRO_SOURCE
+23004,Macro: Description,Macro box,Description text for the macro.,Macro,Multilingual text,Not defined,No,No,MACROBOX_MACRO_DESCRIPTION
+23005,Macro: Source project,Macro box,Name of the project used to create the macro.,Macro,Monolingual text,Not defined,No,No,MACROBOX_SOURCEPROJECT
+23006,Macro: Inserted by,Macro box,Name of the user who inserted the macro.,Macro,Monolingual text,Not defined,No,No,MACROBOX_INSERTED_BY
+23007,Macro: Representation type,Macro box,Representation type of macro. Possible values are:,Macro,Integer,Not defined,No,No,MACROBOX_REPRESENTATION_TYPE
+23008,Macro: Variant,Macro box,Macro variant.,Macro,Integer,Not defined,No,No,MACROBOX_VARIANT
+23012,Macro: Protected group,Macro box,Determines at a macro box in a macro project that a protected group is created during the insertion of a macro. The inserted macro cannot be graphically changed or further broken down in the schematic project.,Macro,Boolean (True / False),Not defined,No,No,MACROBOX_USEPROTECTEDGROUP
+23013,Macro: Also insert macro box,Macro box,Specifies the behavior of the macro box during insertion of the associated macro.,Macro,Integer,Not defined,No,No,MACROBOX_INSERTMODE
+23014,Macro: Take connection point designations into account,Macro box,"Specifies for the macro, whether connection point designations are taken into account for device assignment when macros are updated.",Macro,Integer,Not defined,No,No,MACROBOX_USECONNECTIONPOINTDESIGNATION
+23018,Macro: Eplan version,Macro box,,Macro,Monolingual text,Not defined,No,No,MACROFILE_EPLANVERSION
+23019,Macro: Modification date,Macro box,"Shows the modification date of the macro file in the Insert center. After a macro has been inserted, the value of this property is not transferred to the page or the macro box and is empty. The time is output in the local time of the user in accordance with the set time zone.",Macro,Time / Date,Not defined,No,No,MACROFILE_CHANGEDATE

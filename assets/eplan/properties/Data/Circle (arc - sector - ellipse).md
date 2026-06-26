@@ -1,0 +1,7 @@
+|    ID | Designation                | Object classes                  |   Description | Category   | Field type                | Unit group   | Index   | R/O   | API define         |
+|------:|:---------------------------|:--------------------------------|--------------:|:-----------|:--------------------------|:-------------|:--------|:------|:-------------------|
+| 19320 | Circle radius              | Circle (arc / sector / ellipse) |           nan | Data       | Coordinates (only X or Y) | Not defined  | No      | No    | DMG_ARC_RADIUS     |
+| 19321 | X coordinate of the center | Circle (arc / sector / ellipse) |           nan | Data       | Coordinates (only X or Y) | Not defined  | No      | No    | DMG_ARC_CENTER_X   |
+| 19322 | Y coordinate of the center | Circle (arc / sector / ellipse) |           nan | Data       | Coordinates (only X or Y) | Not defined  | No      | No    | DMG_ARC_CENTER_Y   |
+| 19323 | Starting angle             | Circle (arc / sector / ellipse) |           nan | Data       | Decimal number            | Not defined  | No      | No    | DMG_ARC_STARTANGLE |
+| 19324 | End angle                  | Circle (arc / sector / ellipse) |           nan | Data       | Decimal number            | Not defined  | No      | No    | DMG_ARC_ENDANGLE   |

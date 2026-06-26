@@ -1,0 +1,5 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+24300,Cross-reference (configurable),Interruption point,"For interruption points and structure boxes, this outputs the cross-reference. This also outputs target information when the ""Display of all counter targets"" (ID 24021) property is enabled.",Devices,Monolingual text,Not defined,No,Yes,INTERRUPTIONPOINT_CROSSREFERENCE
+24301,Cross-reference,Interruption point,Specifies the cross-reference.,Devices,Monolingual text,Not defined,No,Yes,INTERRUPTIONPOINT_CROSSREFERENCEONLY
+24302,Cross-reference for NFPA standard,Interruption point,"Normal cross-reference, which inserts a line break between the page cross-reference and the row / column cross-reference, for the NFPA standard.",Devices,Monolingual text,Not defined,No,Yes,INTERRUPTIONPOINT_CROSSREFERENCE_NFPA
+24351,Counter target in cross-reference,Interruption point,Provides the (first) counter target of an interruption point for display in the cross-reference.,Devices,Monolingual text,Not defined,No,Yes,INTERRUPTIONPOINT_CROSSREFDESTINATION

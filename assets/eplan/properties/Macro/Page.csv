@@ -1,0 +1,8 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+11008,Macro: Name,Page,File name of the macro.,Macro,Monolingual text,Not defined,"Yes, 100",No,PAGE_MACRO_NAME
+11014,Macro: Description,Page,Description text for the macro.,Macro,Multilingual text,Not defined,"Yes, 100",No,PAGE_MACRO_DESCRIPTION
+11034,Macro: Source / reference,Page,,Macro,Monolingual text,Not defined,No,No,PAGE_MACROSOURCEREF
+11056,Macro: Source project,Page,Project name of the project used to create the macro.,Macro,Monolingual text,Not defined,No,No,PAGE_MACROSOURCEPROJECT
+11057,Macro: Description,Page,Description text for the macro.,Macro,Multilingual text,Not defined,No,No,PAGE_MACRODESCRIPTION
+11910,Macro: Name,Page,"File name of the page macro, if required with path specifications. Both relative as well as absolute directory paths are allowed.",Macro,Monolingual text,Not defined,No,No,PAGE_MACRO
+11911,Macro: Version,Page,Version designation of the macro.,Macro,Monolingual text,Not defined,No,No,PAGE_MACRO_VERSION

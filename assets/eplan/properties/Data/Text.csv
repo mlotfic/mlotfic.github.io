@@ -1,0 +1,3 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+19201,Text contents,Text,"Shows the content of graphical texts, placeholder texts, hyperlinks, and path function texts as multi-language character strings.",Data,Multilingual text,Not defined,No,No,TEXT_CONTENTS
+19343,Rotation angle for text,Text,,Data,Decimal number,Not defined,No,No,TEXT_ANGLE

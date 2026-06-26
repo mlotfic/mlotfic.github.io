@@ -1,0 +1,5 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+20045,Remark,Potential definition point,,Data,Multilingual text,Not defined,No,No,FUNC_COMMENT
+33001,Superior potential,Potential definition point,Name of the superior potential to which the selected signal belongs.,Data,Monolingual text,Not defined,No,No,POTENTIAL_PARENT
+33003,Potential value,Potential definition point,,Data,Monolingual text,Not defined,No,No,POTENTIAL_VALUE
+33006,Signal name,Potential definition point,Name of the signal.,Data,Monolingual text,Not defined,No,No,POTENTIAL_SIGNAL

@@ -1,0 +1,7 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+11018,Macro: Name,Layout space,File name of the 3D macro.,Macro,Monolingual text,Not defined,No,No,INSTALLATIONSPACE_MACRO_NAME
+11019,Macro: Description,Layout space,Description text for the 3D macro.,Macro,Multilingual text,Not defined,No,No,INSTALLATIONSPACE_MACRO_DESCRIPTION
+11025,Macro: Version,Layout space,Version designation of the macro.,Macro,Monolingual text,Not defined,No,No,INSTALLATIONSPACE_MACRO_VERSION
+11026,Macro: Source / reference,Layout space,,Macro,Monolingual text,Not defined,No,No,INSTALLATIONSPACE_MACROSOURCEREF
+11055,Macro: Source project,Layout space,Project name of the project used to create the macro.,Macro,Monolingual text,Not defined,No,No,INSTALLATIONSPACE_MACROSOURCEPROJECT
+36019,Macro: Variant,Layout space,Macro variant.,Macro,Integer,Not defined,No,No,INSTALLATIONSPACE_MACRO_VARIANT

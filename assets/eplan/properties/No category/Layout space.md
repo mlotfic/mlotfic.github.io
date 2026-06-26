@@ -1,0 +1,3 @@
+|    ID | Designation   | Object classes   | Description                                                           | Category    | Field type                | Unit group   | Index   | R/O   | API define                 |
+|------:|:--------------|:-----------------|:----------------------------------------------------------------------|:------------|:--------------------------|:-------------|:--------|:------|:---------------------------|
+| 36450 | Grid size     | Layout space     | Distance of the grid points for the graphical editing in the 3D view. | No category | Coordinates (only X or Y) | Not defined  | No      | No    | INSTALLATIONSPACE_GRIDSIZE |

@@ -1,0 +1,3 @@
+|   ID | Designation           | Object classes   | Description                 | Category    | Field type       | Unit group   | Index   | R/O   | API define          |
+|-----:|:----------------------|:-----------------|:----------------------------|:------------|:-----------------|:-------------|:--------|:------|:--------------------|
+| 2000 | Object identification | Basic object     | Internal object identifier. | No category | Monolingual text | Not defined  | No      | Yes   | PROPUSER_DBOBJECTID |

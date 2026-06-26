@@ -1,0 +1,3 @@
+|    ID | Designation             | Object classes   | Description                                                         | Category   | Field type        | Unit group   | Index   | R/O   | API define     |
+|------:|:------------------------|:-----------------|:--------------------------------------------------------------------|:-----------|:------------------|:-------------|:--------|:------|:---------------|
+| 19306 | Image file: Description | Image            | Description text of an image file; a multilingual entry is allowed. | Data       | Multilingual text | Not defined  | No      | No    | DESCRIPTION_ML |

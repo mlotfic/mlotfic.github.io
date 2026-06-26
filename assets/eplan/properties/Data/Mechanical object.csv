@@ -1,0 +1,9 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+19400,File name,Mechanical object,,Data,Monolingual text,Not defined,No,Yes,DMG_EXTERNALINSTANCE_DOCNAME
+19401,Schematic link,Mechanical object,,Data,Integer,Not defined,No,Yes,DMG_EXTERNALINSTANCE_HAS_ASSOCIATION
+19402,Trade 'Fluid power',Mechanical object,The trade determines the technology to be applied or selected.,Data,Boolean (True / False),Not defined,No,Yes,DMG_EXTERNALINSTANCE_CRAFT_FLUID
+19403,Trade 'Electrical engineering',Mechanical object,The trade determines the technology to be applied or selected.,Data,Boolean (True / False),Not defined,No,Yes,DMG_EXTERNALINSTANCE_CRAFT_ELECTRICAL
+19404,Object name,Mechanical object,,Data,Monolingual text,Not defined,No,Yes,DMG_EXTERNALINSTANCE_OBJNAME
+19405,Trade 'Process engineering',Mechanical object,The trade determines the technology to be applied or selected.,Data,Boolean (True / False),Not defined,No,Yes,DMG_EXTERNALINSTANCE_CRAFT_PROCESS
+19406,Information,Mechanical object,Shows whether information for tracking a mechanical model is available. The property can be used for filtering.,Data,Multilingual text,Not defined,No,No,DMG_EXTERNALINSTANCE_NOTE
+19407,Mechanical model is obsolete,Mechanical object,Shows whether the mechanical model in the file system is more current than the mechanical model in the Eplan project.,Data,Boolean (True / False),Not defined,No,Yes,DMG_EXTERNALINSTANCE_IS_DIRTY

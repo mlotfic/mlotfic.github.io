@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+33301,Piping: Exchange source and target,Piping definition point,Through this entry you specify whether the target designations of a piping correspond to the targets of the underlying connection or the source and target have been exchanged.,Settings,Boolean (True / False),Not defined,No,No,PIPELINE_CHANGE_SOURCE_TARGET

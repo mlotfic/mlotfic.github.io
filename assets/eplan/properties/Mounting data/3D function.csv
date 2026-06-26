@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+36108,Total weight,3D function,This property displays the result of the calculation of the total weight of an enclosure placed in the layout space. The actual total weight of an enclosure is calculated from the enclosure weight and the sum of the weights of all parts and routed connections placed in the enclosure.,Mounting data,Value with unit,Not defined,No,Yes,FUNCTION3D_CABINET_TOTALWEIGHT

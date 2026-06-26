@@ -1,0 +1,7 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+16901,Variant name,Symbol variant,Name of the symbol variant.,No category,Monolingual text,Not defined,No,Yes,SYMBVAR_NAME
+16902,Number of connecting points,Symbol variant,,No category,Integer,Not defined,No,Yes,SYMBVAR_CONPOINTSCOUNT
+16903,Symbol name,Symbol variant,"Identifying designation of the symbol, i.e. the identifier letter according to a standard.",No category,Monolingual text,Not defined,No,Yes,SYMBVAR_SYMB_NAME
+16904,Symbol number,Symbol variant,"Symbol number, indicates the position of the symbol in the symbol library.",No category,Integer,Not defined,No,Yes,SYMBVAR_SYMB_NR
+16905,Symbol library,Symbol variant,"Name of the symbol library, determined from the database name.",No category,Monolingual text,Not defined,No,Yes,SYMBVAR_SYMBLIB_NAME
+16906,Symbol description,Symbol variant,,No category,Multilingual text,Not defined,No,Yes,SYMBVAR_SYMB_DESC

@@ -1,0 +1,3 @@
+|    ID | Designation   | Object classes   |   Description | Category   | Field type                | Unit group   | Index   | R/O   | API define    |
+|------:|:--------------|:-----------------|--------------:|:-----------|:--------------------------|:-------------|:--------|:------|:--------------|
+| 19017 | Font size     | Symbol library   |           nan | Formats    | Coordinates (only X or Y) | Not defined  | No      | No    | INSTANCE_SIZE |

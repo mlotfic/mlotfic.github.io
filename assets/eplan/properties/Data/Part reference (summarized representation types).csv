@@ -1,0 +1,2 @@
+﻿ID,Designation,Object classes,Description,Category,Field type,Unit group,Index,R/O,API define
+20482,Number of units / quantity,Part reference (summarized representation types),Number of parts.,Data,Integer,Not defined,No,Yes,ARTICLEREF_COUNT

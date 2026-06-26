@@ -1,0 +1,3 @@
+|    ID | Designation                | Object classes   |   Description | Category    | Field type       | Unit group   | Index   | R/O   | API define                |
+|------:|:---------------------------|:-----------------|--------------:|:------------|:-----------------|:-------------|:--------|:------|:--------------------------|
+| 24904 | Eplan Data Portal: Version | Parts database   |           nan | No category | Monolingual text | Not defined  | No      | No    | ARTICLELIBRARY_EPDVERSION |
