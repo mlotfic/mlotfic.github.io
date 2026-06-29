@@ -171,22 +171,6 @@ collections:
     output: true
     sort_by: order
 
-  glossary:
-    output: true
-    permalink: /glossary/:name/
-
-  projects:
-    output: true
-    permalink: /projects/:name/
-
-  cheatsheets:
-    output: true
-    permalink: /cheatsheets/:name/
-
-  notes:
-    output: true
-    permalink: /notes/:name/
-
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project
@@ -208,38 +192,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-    #
-  # Glossary
-  #
-  - scope:
-      path: ""
-      type: glossary
-    values:
-      layout: page
-      comments: false
-      toc: true
-
-  #
-  # Projects
-  #
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: page
-      comments: true
-      toc: true
-
-  #
-  # Cheatsheets
-  #
-  - scope:
-      path: ""
-      type: cheatsheets
-    values:
-      layout: page
-      comments: false
-      toc: true
 
 sass:
   style: compressed
