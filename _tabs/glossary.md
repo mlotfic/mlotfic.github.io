@@ -1,7 +1,7 @@
 ---
 title: Glossary
 icon: fas fa-book
-order: 3
+order: 8
 ---
 
 This page lists all glossary entries.
